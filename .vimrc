@@ -6,7 +6,15 @@ set nocompatible
 set tabstop=4
 set number
 colorscheme wombat
+
+
+
 set cmdheight=5
+
+let schemes = split(globpath(&rtp, "**/colors/*.vim"),"\n")
+exe 'so ' . schemes[localtime() % len(schemes)]
+unlet schemes
+
 
 set nohlsearch 
 
@@ -68,6 +76,7 @@ autocmd BufWritePost *.sh !bash -n <afile>
 autocmd BufWritePost *.pl !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
 autocmd BufWritePost *.xml !xmllint --noout <afile>
+
 " enable filetype detection:
 filetype on
 
@@ -86,8 +95,6 @@ map <F8> <ESC>:tabnew
 
 map <F11> <ESC>:tabprevious<CR> 
 map <F12> <ESC>:tabnext<CR> 
-
-map <F5> :make<CR>
 
 " map <F11> :set invpaste<CR>
 " set pastetoggle=<F11>
@@ -150,6 +157,7 @@ if has("gui_running")
     " }
 endif
 " }
+
 cd /home/nico/workspace/pulse3
 set mouse=a
 
