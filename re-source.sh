@@ -2,8 +2,5 @@
 
 prefix=`pwd`
 
-cp ~/.vimrc $prefix
-cp -r ~/.vim $prefix
-
-
-
+cp -v ~/.vimrc $prefix
+cp -vr ~/.vim $prefix

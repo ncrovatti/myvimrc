@@ -11,7 +11,7 @@ colorscheme wombat
 
 set cmdheight=5
 
-let schemes = split(globpath(&rtp, "**/colors/*.vim"),"\n")
+let schemes = split(globpath("~/.vim/colors/", "*.*"),"\n")
 exe 'so ' . schemes[localtime() % len(schemes)]
 unlet schemes
 
