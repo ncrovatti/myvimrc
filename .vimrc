@@ -19,16 +19,16 @@ set nobackup
 set nowb
 set noswapfile
 
-filetype plugin on
+filetype indent plugin on
 
 " php helpfuls
 " let php_sql_query = 1
 let php_baselib = 1
-let php_htmlInStrings = 1
+let php_htmlInStrings = 0
 let php_noShortTags = 1
 let php_parent_error_close = 1
 let php_parent_error_open = 1
-let php_folding = 1
+" let php_folding = 1
 
 " some common helpful settings 
 set shiftwidth=2
@@ -145,7 +145,7 @@ set numberwidth=4
 set scrolloff=10
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 set sidescrolloff=10
-set foldmarker={,}
+" set foldmarker={,}
 
 " GUI Settings {
 if has("gui_running")

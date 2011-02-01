@@ -27,7 +27,7 @@ function! s:Project(filename) " <<<
         endif
     endif
     if !exists('g:proj_window_width')
-        let g:proj_window_width=24              " Default project window width
+        let g:proj_window_width=48              " Default project window width
     endif
     if !exists('g:proj_window_increment')
         let g:proj_window_increment=100         " Project Window width increment
