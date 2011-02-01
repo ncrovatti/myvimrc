@@ -1,13 +1,10 @@
-set bg=dark
+"set bg=dark
 syntax on 
 syntax reset
 set title
 set nocompatible
 set tabstop=4
 set number
-colorscheme wombat
-
-
 
 set cmdheight=5
 
@@ -23,10 +20,6 @@ set nowb
 set noswapfile
 
 filetype plugin on
-
-set guioptions-=m " turn off menu bar
-set guioptions-=T " turn off toolbar
-
 
 " php helpfuls
 " let php_sql_query = 1
@@ -124,9 +117,25 @@ function InsertTabWrapper()
         return "\<c-p>"
     endif
 endfunction
-
 " Remap the tab key to select action with InsertTabWrapper
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
+
+
+function! CleverTab()
+  if pumvisible()
+    return "\<C-N>"
+  endif
+  if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+    return "\<Tab>"
+  elseif exists('&omnifunc') && &omnifunc != ''
+    return "\<C-X>\<C-O>"
+  else
+    return "\<C-N>"
+  endif
+endfunction
+inoremap <Tab> <C-R>=CleverTab()<CR>
+
+
 
 " }}} Autocompletion using the TAB key
 set autoindent
@@ -139,7 +148,11 @@ set foldmarker={,}
 
 " GUI Settings {
 if has("gui_running")
-    " Basics {
+ 
+		set guioptions-=m " turn off menu bar
+		set guioptions-=T " turn off toolbar
+
+   " Basics {
         set guifont=Inconsolata\ Medium\ 12 " My favorite font
         set guioptions=ce 
         "              ||
