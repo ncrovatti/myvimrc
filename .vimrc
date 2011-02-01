@@ -1,51 +1,48 @@
 set bg=dark
-syntax on 
-syntax reset
+set tabstop=4
+set ls=2            " allways show status line
+set cmdheight=5
+set formatoptions=qroct
+set shiftwidth=2
 set title
 set nocompatible
-set tabstop=4
 set number
+set nohlsearch 
+set nobackup
+set nowb
+set noswapfile
+set incsearch
+set ignorecase
+set smartcase
+set ruler           " show the cursor position all the time
+set cursorcolumn 
+set cursorline 
+set pastetoggle=<F2>
+set autoindent
+set numberwidth=4
+set scrolloff=10
+set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
+set sidescrolloff=10
+set nowrap
 
-set cmdheight=5
+syntax on 
+syntax reset
 
 let schemes = split(globpath("~/.vim/colors/", "*.*"),"\n")
 exe 'so ' . schemes[localtime() % len(schemes)]
 unlet schemes
 
-
-set nohlsearch 
-
-set nobackup
-set nowb
-set noswapfile
-
 filetype indent plugin on
 
-" php helpfuls
-" let php_sql_query = 1
 let php_baselib = 1
 let php_htmlInStrings = 0
 let php_noShortTags = 1
 let php_parent_error_close = 1
 let php_parent_error_open = 1
-" let php_folding = 1
-
-" some common helpful settings 
-set shiftwidth=2
-
-"do an incremental search
-set incsearch
-
-" Correct indentation after opening a phpdocblock and automatic * on every line
-set formatoptions=qroct
-
-
 
 " Bubble Single Line
 nmap <C-Up> ddkP
 nmap <C-Down> ddp
-
-" nmap <silent> <c-f> :call eclim#vimplugin#FeedKeys('Ctrl+Shift+R')<cr>
 
 " Bubble multiple lines
 vmap <C-Up> xkP`[V`]
@@ -70,19 +67,6 @@ autocmd BufWritePost *.pl !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
 autocmd BufWritePost *.xml !xmllint --noout <afile>
 
-" enable filetype detection:
-filetype on
-
-" make searches case-insensitive, unless they contain upper-case letters:
-set ignorecase
-set smartcase
-
-
-set ls=2            " allways show status line
-set ruler           " show the cursor position all the time
-set cursorcolumn 
-set cursorline 
-
 
 map <F8> <ESC>:tabnew 
 
@@ -90,20 +74,12 @@ map <F11> <ESC>:tabprevious<CR>
 map <F12> <ESC>:tabnext<CR> 
 map <F1> <ESC>
 
-" map <F11> :set invpaste<CR>
-set pastetoggle=<F2>
+map <C-S-m> <ESC>:bprevious<CR>
+map <C-m> <ESC>:bNext<CR>
 
 if &term == "xterm-color"
   fixdel
 endif
-
-" Enable folding by fold markers
-" this causes vi problems set foldmethod=marker 
-
-" Correct indentation after opening a phpdocblock and automatic * on every
-" line
-set formatoptions=qroct
-
 
 set complete-=k complete+=k
 " {{{ Autocompletion using the TAB key
@@ -136,16 +112,7 @@ function! CleverTab()
 endfunction
 inoremap <Tab> <C-R>=CleverTab()<CR>
 
-
-
 " }}} Autocompletion using the TAB key
-set autoindent
-
-set numberwidth=4
-set scrolloff=10
-set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
-set sidescrolloff=10
-" set foldmarker={,}
 
 " GUI Settings {
 if has("gui_running")
