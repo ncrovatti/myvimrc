@@ -173,5 +173,3 @@ endif
 
 cd /home/nico/workspace/pulse3
 set mouse=a
-Project
-
