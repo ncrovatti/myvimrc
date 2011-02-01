@@ -1,4 +1,4 @@
-"set bg=dark
+set bg=dark
 syntax on 
 syntax reset
 set title
@@ -173,4 +173,5 @@ endif
 
 cd /home/nico/workspace/pulse3
 set mouse=a
+Project
 
