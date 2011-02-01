@@ -88,9 +88,10 @@ map <F8> <ESC>:tabnew
 
 map <F11> <ESC>:tabprevious<CR> 
 map <F12> <ESC>:tabnext<CR> 
+map <F1> <ESC>
 
 " map <F11> :set invpaste<CR>
-" set pastetoggle=<F11>
+set pastetoggle=<F2>
 
 if &term == "xterm-color"
   fixdel
@@ -170,7 +171,6 @@ if has("gui_running")
     " }
 endif
 " }
-
 cd /home/nico/workspace/pulse3
 set mouse=a
 
