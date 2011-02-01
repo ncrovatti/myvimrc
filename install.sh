@@ -2,7 +2,7 @@
 
 prefix=`pwd`
 
-rm -rfv $prefix/.vim/
+rm -rfv ~/.vim/
 cp -vir $prefix/.vimrc ~/
 cp -vr $prefix/.vim ~/
 

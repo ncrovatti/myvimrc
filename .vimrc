@@ -109,7 +109,7 @@ set complete-=k complete+=k
 
 " This function determines, wether we are on the start of the line text (then tab indents) or
 " if we want to try autocompletion
-function InsertTabWrapper()
+function! InsertTabWrapper()
     let col = col('.') - 1
    if !col || getline('.')[col - 1] !~ '\k'
         return "\<tab>"
