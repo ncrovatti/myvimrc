@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 prefix=`pwd`
 
@@ -7,5 +7,5 @@ cp -vir $prefix/.vimrc ~/
 cp -vir $prefix/.bashrc ~/
 cp -vr $prefix/.vim ~/
 
-
+. ~/.bashrc
 
