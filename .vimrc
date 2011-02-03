@@ -60,8 +60,6 @@ augroup Programming
 " clear auto commands for this group
 autocmd!
 autocmd BufWritePost *.php !php -d display_errors=on -l <afile>
-autocmd BufWritePost *httpd*.conf !/etc/rc.d/init.d/httpd configtest
-autocmd BufWritePost *.bash !bash -n <afile>
 autocmd BufWritePost *.sh !bash -n <afile>
 autocmd BufWritePost *.pl !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
@@ -128,3 +126,18 @@ endif
 " }
 cd /home/nico/workspace/pulse3
 set mouse=a
+
+let g:proj_window_width = 40
+"let g:proj_window_increment = 50
+
+let Tlist_Exist_OnlyWindow = 1 " if you are the last, kill yourself
+let Tlist_Use_Right_Window = 1 " split to the right side of the screen
+let Tlist_WinWidth = 40
+let Tlist_Enable_Fold_Column = 0 
+
+nmap <silent> <F3> <Plug>ToggleProject
+nnoremap <silent> <F4> :TlistToggle<CR>
+
+let g:miniBufExplTabWrap = 1 " make tabs show complete (no broken on two lines)
+let g:miniBufExplUseSingleClick = 1
+
