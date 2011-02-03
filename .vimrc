@@ -20,19 +20,19 @@ set cursorline
 set pastetoggle=<F2>
 set autoindent
 set numberwidth=4
-set scrolloff=10
+"set scrolloff=10
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 set sidescrolloff=10
 set nowrap
-
 syntax on 
 syntax reset
+" let schemes = split(globpath("~/.vim/colors/", "*.*"),"\n")
+" exe 'so ' . schemes[localtime() % len(schemes)]
+" unlet schemes
 
-let schemes = split(globpath("~/.vim/colors/", "*.*"),"\n")
-exe 'so ' . schemes[localtime() % len(schemes)]
-unlet schemes
-
-filetype indent plugin on
+colorscheme darkspectrum
+set ttyfast
+filetype plugin on
 
 let php_baselib = 1
 let php_htmlInStrings = 0
@@ -67,13 +67,12 @@ autocmd BufWritePost *.pl !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
 autocmd BufWritePost *.xml !xmllint --noout <afile>
 
+inoremap { <CR>{<CR>
 
 map <F8> <ESC>:tabnew 
-
 map <F11> <ESC>:tabprevious<CR> 
 map <F12> <ESC>:tabnext<CR> 
 map <F1> <ESC>
-
 map <C-S-m> <ESC>:bprevious<CR>
 map <C-m> <ESC>:bNext<CR>
 
@@ -116,26 +115,15 @@ inoremap <Tab> <C-R>=CleverTab()<CR>
 
 " GUI Settings {
 if has("gui_running")
- 
-		set guioptions-=m " turn off menu bar
-		set guioptions-=T " turn off toolbar
-
-   " Basics {
-        set guifont=Inconsolata\ Medium\ 12 " My favorite font
-        set guioptions=ce 
-        "              ||
-        "              |+-- use simple dialogs rather than pop-ups
-        "              +  use GUI tabs, not console style tabs
-        set lines=60 " perfect size for me
-        set mousehide " hide the mouse cursor when typing
-    " }
-
-    " Font Switching Binds {
-        map <F9> <ESC>:set guifont=Inconsolata Medium 10<CR>
-        map <F10> <ESC>:set guifont=Inconsolata Medium 12<CR>
-        map <F11> <ESC>:set guifont=Inconsolata Medium 16<CR>
-        map <F12> <ESC>:set guifont=Inconsolata Medium 20<CR>
-    " }
+  set guioptions-=m " turn off menu bar
+  set guioptions-=T " turn off toolbar
+  set guifont=Inconsolata\ Medium\ 12 " My favorite font
+  set guioptions=ce 
+  "              ||
+  "              |+-- use simple dialogs rather than pop-ups
+  "              +  use GUI tabs, not console style tabs
+  set lines=60 " perfect size for me
+  set mousehide " hide the mouse cursor when typing
 endif
 " }
 cd /home/nico/workspace/pulse3
