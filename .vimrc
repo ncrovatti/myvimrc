@@ -141,3 +141,4 @@ nnoremap <silent> <F4> :TlistToggle<CR>
 let g:miniBufExplTabWrap = 1 " make tabs show complete (no broken on two lines)
 let g:miniBufExplUseSingleClick = 1
 
+map <F5> :execute "vimgrep /" . expand("<cword>") . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
