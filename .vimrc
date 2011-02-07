@@ -146,7 +146,7 @@ let Tlist_Use_Right_Window = 1 " split to the right side of the screen
 let Tlist_WinWidth = 40
 let Tlist_Enable_Fold_Column = 0 
 
-"map <S-R> :CommandT<CR>
+map <S-R> :CommandT<CR>
 nmap <silent> <F3> <Plug>ToggleProject
 nnoremap <silent> <F4> :TlistToggle<CR>
 
