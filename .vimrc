@@ -1,7 +1,7 @@
 set bg=dark
 set tabstop=4
 set ls=2            " allways show status line
-set cmdheight=5
+set cmdheight=2
 set formatoptions=qroct
 set shiftwidth=2
 set title
@@ -19,7 +19,13 @@ set cursorcolumn
 set cursorline 
 set pastetoggle=<F2>
 set autoindent
+set copyindent
 set numberwidth=4
+set hidden
+set hlsearch      " highlight search terms
+set incsearch     " show search matches as you type
+set visualbell           " don't beep
+set noerrorbells         " don't beep
 "set scrolloff=10
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 set sidescrolloff=10
@@ -59,11 +65,11 @@ vmap <C-Down> xp`[V`]
 augroup Programming
 " clear auto commands for this group
 autocmd!
-autocmd BufWritePost *.php !php -d display_errors=on -l <afile>
-autocmd BufWritePost *.sh !bash -n <afile>
-autocmd BufWritePost *.pl !perl -c <afile>
+autocmd BufWritePost *.php  !php -d display_errors=on -l <afile>
+autocmd BufWritePost *.sh   !bash -n <afile>
+autocmd BufWritePost *.pl   !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
-autocmd BufWritePost *.xml !xmllint --noout <afile>
+autocmd BufWritePost *.xml  !xmllint --noout <afile>
 
 inoremap { <CR>{<CR>
 
@@ -73,6 +79,11 @@ map <F12> <ESC>:tabnext<CR>
 map <F1> <ESC>
 map <C-S-m> <ESC>:bprevious<CR>
 map <C-m> <ESC>:bNext<CR>
+
+map <S-up> <C-w>h
+map <S-down> <C-w>j
+map <S-left> <C-w>h
+map <S-right> <C-w>l
 
 if &term == "xterm-color"
   fixdel
@@ -135,6 +146,7 @@ let Tlist_Use_Right_Window = 1 " split to the right side of the screen
 let Tlist_WinWidth = 40
 let Tlist_Enable_Fold_Column = 0 
 
+"map <S-R> :CommandT<CR>
 nmap <silent> <F3> <Plug>ToggleProject
 nnoremap <silent> <F4> :TlistToggle<CR>
 
@@ -142,3 +154,5 @@ let g:miniBufExplTabWrap = 1 " make tabs show complete (no broken on two lines)
 let g:miniBufExplUseSingleClick = 1
 
 map <F5> :execute "vimgrep /" . expand("<cword>") . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
+
+let g:CommandTMaxFiles=30000
