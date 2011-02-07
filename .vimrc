@@ -1,7 +1,7 @@
 set bg=dark
 set tabstop=4
 set ls=2            " allways show status line
-set cmdheight=5
+set cmdheight=2
 set formatoptions=qroct
 set shiftwidth=2
 set title
@@ -65,11 +65,11 @@ vmap <C-Down> xp`[V`]
 augroup Programming
 " clear auto commands for this group
 autocmd!
-autocmd BufWritePost *.php !php -d display_errors=on -l <afile>
-autocmd BufWritePost *.sh !bash -n <afile>
-autocmd BufWritePost *.pl !perl -c <afile>
+autocmd BufWritePost *.php  !php -d display_errors=on -l <afile>
+autocmd BufWritePost *.sh   !bash -n <afile>
+autocmd BufWritePost *.pl   !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
-autocmd BufWritePost *.xml !xmllint --noout <afile>
+autocmd BufWritePost *.xml  !xmllint --noout <afile>
 
 inoremap { <CR>{<CR>
 
@@ -146,7 +146,7 @@ let Tlist_Use_Right_Window = 1 " split to the right side of the screen
 let Tlist_WinWidth = 40
 let Tlist_Enable_Fold_Column = 0 
 
-map <C-S-R> :CommandT<CR>
+"map <S-R> :CommandT<CR>
 nmap <silent> <F3> <Plug>ToggleProject
 nnoremap <silent> <F4> :TlistToggle<CR>
 
