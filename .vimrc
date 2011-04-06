@@ -1,7 +1,7 @@
 set bg=dark
 set tabstop=4
 set ls=2            " allways show status line
-set cmdheight=2
+set cmdheight=5
 set formatoptions=qroct
 set shiftwidth=2
 set title
@@ -30,6 +30,7 @@ set noerrorbells         " don't beep
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 set sidescrolloff=10
 set nowrap
+set iskeyword=@,48-57,_,-,192,255
 syntax on 
 syntax reset
 " let schemes = split(globpath("~/.vim/colors/", "*.*"),"\n")
@@ -70,15 +71,14 @@ autocmd BufWritePost *.sh   !bash -n <afile>
 autocmd BufWritePost *.pl   !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
 autocmd BufWritePost *.xml  !xmllint --noout <afile>
+" autocmd BufWritePost *.js  !~/.vim/scripts/jslint/jslint <afile>
 
-inoremap { <CR>{<CR>
+" http://stackoverflow.com/questions/473478/vim-jslint
+set makeprg=cat\ %\ \\\|\ /usr/bin/js\ /home/nico/.vim/scripts/jslint/mylintrun.js\ %
+set errorformat=%f:%l:%c:%m
 
 map <F8> <ESC>:tabnew 
-map <F11> <ESC>:tabprevious<CR> 
-map <F12> <ESC>:tabnext<CR> 
 map <F1> <ESC>
-map <C-S-m> <ESC>:bprevious<CR>
-map <C-m> <ESC>:bNext<CR>
 
 map <S-up> <C-w>h
 map <S-down> <C-w>j
@@ -118,7 +118,7 @@ function! CleverTab()
     return "\<C-N>"
   endif
 endfunction
-inoremap <Tab> <C-R>=CleverTab()<CR>
+"inoremap <Tab> <C-R>=CleverTab()<CR>
 
 " }}} Autocompletion using the TAB key
 
@@ -143,7 +143,7 @@ let g:proj_window_width = 40
 
 let Tlist_Exist_OnlyWindow = 1 " if you are the last, kill yourself
 let Tlist_Use_Right_Window = 1 " split to the right side of the screen
-let Tlist_WinWidth = 40
+let Tlist_WinWidth = 5
 let Tlist_Enable_Fold_Column = 0 
 
 map <S-R> :CommandT<CR>
@@ -152,6 +152,10 @@ nnoremap <silent> <F4> :TlistToggle<CR>
 
 let g:miniBufExplTabWrap = 1 " make tabs show complete (no broken on two lines)
 let g:miniBufExplUseSingleClick = 1
+let g:miniBufExplSplitBelow = 0
+let g:miniBufExplVSplit = 20
+let g:miniBufExplMaxWidth = 0
+
 
 map <F5> :execute "vimgrep /" . expand("<cword>") . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
 

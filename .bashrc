@@ -90,8 +90,10 @@ fi
 #alias la='ls -A'
 #alias l='ls -CF'
 alias vi='vim'
-alias vim='vim +Project'
-
+#alias vim='vim +Project'
+alias youtube-dl='youtube-dl -t -c '
+alias top='htop'
+export JSLINT_HOME='/home/nico/.vim/scripts/jslint/'
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
