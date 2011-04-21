@@ -4,7 +4,7 @@
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
-
+PATH="$PATH:/var/lib/gems/1.8/bin"
 TERM=xterm-256color
 # don't put duplicate lines in the history. See bash(1) for more options
 # don't overwrite GNU Midnight Commander's setting of `ignorespace'.
@@ -93,7 +93,10 @@ alias vi='vim'
 #alias vim='vim +Project'
 alias youtube-dl='youtube-dl -t -c '
 alias top='htop'
+alias ll='ls -la'
 export JSLINT_HOME='/home/nico/.vim/scripts/jslint/'
+
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
