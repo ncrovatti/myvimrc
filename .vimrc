@@ -30,7 +30,7 @@ set noerrorbells         " don't beep
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 set sidescrolloff=10
 set nowrap
-set iskeyword=@,48-57,_,-,$,:,192,255
+set iskeyword=@,48-57,_,-,192,255
 syntax on 
 syntax reset
 " let schemes = split(globpath("~/.vim/colors/", "*.*"),"\n")
@@ -135,7 +135,7 @@ if has("gui_running")
   set mousehide " hide the mouse cursor when typing
 endif
 " }
-cd /home/nico/workspace/pulse3
+"cd /home/nico/workspace/pulse3
 set mouse=a
 
 let g:proj_window_width = 40
@@ -153,7 +153,7 @@ nnoremap <silent> <F4> :TlistToggle<CR>
 let g:miniBufExplTabWrap = 1 " make tabs show complete (no broken on two lines)
 let g:miniBufExplUseSingleClick = 1
 let g:miniBufExplSplitBelow = 0
-let g:miniBufExplVSplit = 35
+let g:miniBufExplVSplit = 20
 let g:miniBufExplMaxWidth = 0
 
 
