@@ -72,6 +72,7 @@ autocmd BufWritePost *.pl   !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
 autocmd BufWritePost *.xml  !xmllint --noout <afile>
 autocmd BufWritePost *.scss !sass -c <afile>
+autocmd BufRead *.scss set filetype=scss
 " autocmd BufWritePost *.js  !~/.vim/scripts/jslint/jslint <afile>
 
 " http://stackoverflow.com/questions/473478/vim-jslint
