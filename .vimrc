@@ -71,11 +71,12 @@ autocmd BufWritePost *.sh   !bash -n <afile>
 autocmd BufWritePost *.pl   !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
 autocmd BufWritePost *.xml  !xmllint --noout <afile>
+autocmd BufWritePost *.scss !sass -c <afile>
 " autocmd BufWritePost *.js  !~/.vim/scripts/jslint/jslint <afile>
 
 " http://stackoverflow.com/questions/473478/vim-jslint
-set makeprg=cat\ %\ \\\|\ /usr/bin/js\ /home/nico/.vim/scripts/jslint/mylintrun.js\ %
-set errorformat=%f:%l:%c:%m
+"set makeprg=cat\ %\ \\\|\ /usr/bin/js\ /home/nico/.vim/scripts/jslint/mylintrun.js\ %
+"set errorformat=%f:%l:%c:%m
 
 map <F8> <ESC>:tabnew 
 map <F1> <ESC>
