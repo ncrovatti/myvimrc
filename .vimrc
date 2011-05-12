@@ -30,7 +30,7 @@ set noerrorbells         " don't beep
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 set sidescrolloff=10
 set nowrap
-set iskeyword=@,48-57,_,-,192,255
+set iskeyword=@,48-57,_,-,$,:,192,255
 syntax on 
 syntax reset
 " let schemes = split(globpath("~/.vim/colors/", "*.*"),"\n")
@@ -46,7 +46,7 @@ let php_htmlInStrings = 0
 let php_noShortTags = 1
 let php_parent_error_close = 1
 let php_parent_error_open = 1
-
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 " Bubble Single Line
 nmap <C-Up> ddkP
 nmap <C-Down> ddp
@@ -71,7 +71,7 @@ autocmd BufWritePost *.sh   !bash -n <afile>
 autocmd BufWritePost *.pl   !perl -c <afile>
 autocmd BufWritePost *.perl !perl -c <afile>
 autocmd BufWritePost *.xml  !xmllint --noout <afile>
-autocmd BufWritePost *.scss !sass -c <afile>
+autocmd BufWritePost *.scss !sass --trace -c <afile>
 autocmd BufRead *.scss set filetype=scss
 " autocmd BufWritePost *.js  !~/.vim/scripts/jslint/jslint <afile>
 
@@ -145,8 +145,9 @@ let g:proj_window_width = 40
 
 let Tlist_Exist_OnlyWindow = 1 " if you are the last, kill yourself
 let Tlist_Use_Right_Window = 1 " split to the right side of the screen
-let Tlist_WinWidth = 5
+let Tlist_WinWidth = 30
 let Tlist_Enable_Fold_Column = 0 
+let Tlist_Compact_Format = 1
 
 map <S-R> :CommandT<CR>
 nmap <silent> <F3> <Plug>ToggleProject
@@ -155,10 +156,16 @@ nnoremap <silent> <F4> :TlistToggle<CR>
 let g:miniBufExplTabWrap = 1 " make tabs show complete (no broken on two lines)
 let g:miniBufExplUseSingleClick = 1
 let g:miniBufExplSplitBelow = 0
-let g:miniBufExplVSplit = 20
+let g:miniBufExplVSplit = 30
 let g:miniBufExplMaxWidth = 0
 
 
 map <F5> :execute "vimgrep /" . expand("<cword>") . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
 
 let g:CommandTMaxFiles=30000
+
+autocmd InsertEnter * highlight StatusLine cterm=bold ctermfg=222
+autocmd InsertEnter * highlight CursorColumn ctermbg=23
+autocmd InsertLeave * highlight StatusLine cterm=none ctermfg=231
+autocmd InsertLeave * highlight CursorColumn ctermbg=237
+
