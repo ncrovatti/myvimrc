@@ -157,7 +157,8 @@ fun! TriggerSnippet()
 		call feedkeys(SuperTabKey)
 		return ''
 	endif
-	return ""
+	return "\<space>"
+	endif
 endf
 
 fun! BackwardsSnippet()

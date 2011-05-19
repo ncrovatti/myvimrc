@@ -157,6 +157,3 @@ autocmd InsertEnter * highlight StatusLine cterm=bold ctermfg=222
 autocmd InsertEnter * highlight CursorColumn ctermbg=23
 autocmd InsertLeave * highlight StatusLine cterm=none ctermfg=231
 autocmd InsertLeave * highlight CursorColumn ctermbg=237
-
-ino <space> <c-r>=TriggerSnippet()<cr> 
-snor <space> <esc>i<right><c-r>=TriggerSnippet()<cr>
