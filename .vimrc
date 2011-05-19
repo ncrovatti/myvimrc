@@ -30,7 +30,7 @@ set noerrorbells         " don't beep
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 set sidescrolloff=10
 set nowrap
-set iskeyword=@,48-57,_,-,$,:,192,255
+set iskeyword=@,48-57,_,$,192,255
 syntax on 
 syntax reset
 " let schemes = split(globpath("~/.vim/colors/", "*.*"),"\n")
@@ -73,6 +73,10 @@ autocmd BufWritePost *.perl !perl -c <afile>
 autocmd BufWritePost *.xml  !xmllint --noout <afile>
 autocmd BufWritePost *.scss !sass --trace -c <afile>
 autocmd BufRead *.scss set filetype=scss
+au BufRead,BufNewFile *.js setlocal iskeyword+=: 
+au BufRead,BufNewFile *.js setlocal iskeyword+=- 
+au BufRead,BufNewFile *.css setlocal iskeyword+=- 
+au BufRead,BufNewFile *.scss setlocal iskeyword+=- 
 " autocmd BufWritePost *.js  !~/.vim/scripts/jslint/jslint <afile>
 
 " http://stackoverflow.com/questions/473478/vim-jslint
@@ -106,21 +110,6 @@ function! InsertTabWrapper()
 endfunction
 " Remap the tab key to select action with InsertTabWrapper
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
-
-
-function! CleverTab()
-  if pumvisible()
-    return "\<C-N>"
-  endif
-  if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
-    return "\<Tab>"
-  elseif exists('&omnifunc') && &omnifunc != ''
-    return "\<C-X>\<C-O>"
-  else
-    return "\<C-N>"
-  endif
-endfunction
-"inoremap <Tab> <C-R>=CleverTab()<CR>
 
 " }}} Autocompletion using the TAB key
 
@@ -169,3 +158,5 @@ autocmd InsertEnter * highlight CursorColumn ctermbg=23
 autocmd InsertLeave * highlight StatusLine cterm=none ctermfg=231
 autocmd InsertLeave * highlight CursorColumn ctermbg=237
 
+ino <space> <c-r>=TriggerSnippet()<cr> 
+snor <space> <esc>i<right><c-r>=TriggerSnippet()<cr>
