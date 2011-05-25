@@ -94,6 +94,7 @@ alias vi='vim'
 alias youtube-dl='youtube-dl -t -c '
 alias top='htop'
 alias ll='ls -la'
+alias grep='ack-grep'
 export JSLINT_HOME='/home/nico/.vim/scripts/jslint/'
 
 

@@ -91,6 +91,14 @@ map <S-down> <C-w>j
 map <S-left> <C-w>h
 map <S-right> <C-w>l
 
+let mapleader=','
+if exists(":Tabularize")
+  nmap <Leader>= :Tabularize /=<CR>
+  vmap <Leader>= :Tabularize /=<CR>
+  nmap <Leader>: :Tabularize /:\zs<CR>
+  vmap <Leader>: :Tabularize /:\zs<CR>
+endif
+
 if &term == "xterm-color"
   fixdel
 endif
@@ -132,21 +140,21 @@ set mouse=a
 let g:proj_window_width = 40
 "let g:proj_window_increment = 50
 
-let Tlist_Exist_OnlyWindow = 1 " if you are the last, kill yourself
-let Tlist_Use_Right_Window = 1 " split to the right side of the screen
-let Tlist_WinWidth = 30
-let Tlist_Enable_Fold_Column = 0 
-let Tlist_Compact_Format = 1
+let Tlist_Exist_OnlyWindow   = 1 " if you are the last, kill yourself
+let Tlist_Use_Right_Window   = 1 " split to the right side of the screen
+let Tlist_WinWidth           = 30
+let Tlist_Enable_Fold_Column = 0
+let Tlist_Compact_Format     = 1
 
 map <S-R> :CommandT<CR>
 nmap <silent> <F3> <Plug>ToggleProject
 nnoremap <silent> <F4> :TlistToggle<CR>
 
-let g:miniBufExplTabWrap = 1 " make tabs show complete (no broken on two lines)
+let g:miniBufExplTabWrap        = 1 " make tabs show complete (no broken on two lines)
 let g:miniBufExplUseSingleClick = 1
-let g:miniBufExplSplitBelow = 0
-let g:miniBufExplVSplit = 30
-let g:miniBufExplMaxWidth = 0
+let g:miniBufExplSplitBelow     = 0
+let g:miniBufExplVSplit         = 30
+let g:miniBufExplMaxWidth       = 0
 
 
 map <F5> :execute "vimgrep /" . expand("<cword>") . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
