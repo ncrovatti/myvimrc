@@ -1,7 +1,6 @@
 snippet php
 	<?php
 	${1}
-	?>
 snippet ec
 	echo "${1:string}"${2};
 snippet inc
@@ -144,7 +143,7 @@ snippet class
 		${3}
 		function ${4:__construct}(${5:argument})
 		{
-			${6:// code...}
+			${6}
 		}
 	}
 # define(...)
@@ -154,32 +153,28 @@ snippet def
 snippet def?
 	${1}defined('${2}')${3}
 snippet wh
-	while (${1:/* condition */}) {
-		${2:// code...}
+	while (${1}) {
+		${2}
 	}
 # do ... while
-snippet do
-	do {
-		${2:// code... }
-	} while (${1:/* condition */});
 snippet if
-	if (${1:/* condition */}) {
-		${2:// code...}
+	if (${1}) {
+		
 	}
 snippet ife
-	if (${1:/* condition */}) {
-		${2:// code...}
+	if (${1}) {
+		
 	} else {
-		${3:// code...}
+		
 	}
 	${4}
 snippet else
 	else {
-		${1:// code...}
+		${1}
 	}
 snippet elseif
-	elseif (${1:/* condition */}) {
-		${2:// code...}
+	elseif (${1}) {
+		
 	}
 # Tertiary conditional
 snippet t
@@ -187,16 +182,16 @@ snippet t
 snippet switch
 	switch ($${1:variable}) {
 		case '${2:value}':
-			${3:// code...}
+			${3}
 			break;
 		${5}
 		default:
-			${4:// code...}
+			${4}
 			break;
 	}
 snippet case
 	case '${1:value}':
-		${2:// code...}
+		${2}
 		break;${3}
 snippet for
 	for ($${2:i} = 0; $$2 < ${1:count}; $$2${3:++}) {
@@ -204,12 +199,12 @@ snippet for
 	}
 snippet foreach
 	foreach ($${1:variable} as $${2:key}) {
-		${3:// code...}
+		${3}
 	}
 snippet fun
 	${1:public }function ${2:FunctionName}(${3})
 	{
-		${4:// code...}
+		${4}
 	}
 # $... = array (...)
 snippet array

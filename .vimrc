@@ -140,6 +140,7 @@ set mouse=a
 let g:proj_window_width = 40
 "let g:proj_window_increment = 50
 
+let Tlist_Ctags_Cmd = "/usr/bin/ctags"
 let Tlist_Exist_OnlyWindow   = 1 " if you are the last, kill yourself
 let Tlist_Use_Right_Window   = 1 " split to the right side of the screen
 let Tlist_WinWidth           = 30
@@ -149,6 +150,7 @@ let Tlist_Compact_Format     = 1
 map <S-R> :CommandT<CR>
 nmap <silent> <F3> <Plug>ToggleProject
 nnoremap <silent> <F4> :TlistToggle<CR>
+map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 let g:miniBufExplTabWrap        = 1 " make tabs show complete (no broken on two lines)
 let g:miniBufExplUseSingleClick = 1
@@ -165,3 +167,5 @@ autocmd InsertEnter * highlight StatusLine cterm=bold ctermfg=222
 autocmd InsertEnter * highlight CursorColumn ctermbg=23
 autocmd InsertLeave * highlight StatusLine cterm=none ctermfg=231
 autocmd InsertLeave * highlight CursorColumn ctermbg=237
+
+

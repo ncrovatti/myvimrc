@@ -4,7 +4,7 @@
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
-PATH="$PATH:/var/lib/gems/1.8/bin"
+PATH="$PATH:/var/lib/gems/1.8/bin:/home/nico/workspace/android-sdk-linux_x86/platform-tools:/home/nico/workspace/android-sdk-linux_x86/tools"
 TERM=xterm-256color
 # don't put duplicate lines in the history. See bash(1) for more options
 # don't overwrite GNU Midnight Commander's setting of `ignorespace'.
@@ -96,6 +96,10 @@ alias top='htop'
 alias ll='ls -la'
 alias grep='ack-grep'
 export JSLINT_HOME='/home/nico/.vim/scripts/jslint/'
+
+if [ -f ~/.colorsrc ]; then
+    . ~/.colorsrc
+fi
 
 
 # Alias definitions.
