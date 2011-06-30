@@ -1,0 +1,30 @@
+#!/bin/bash
+
+base=$(expr $RANDOM % 228)
+
+function refresh_colors() {
+	location=`pwd`
+ 	cd ; source .colorsrc ; cd $location;
+}
+
+function EXT_COLOR () {	
+	echo -ne "\033[38;5;$1m" 
+}
+
+c1=`EXT_COLOR $(($base+0))`
+c2=`EXT_COLOR $(($base+1))` 
+c3=`EXT_COLOR $(($base+2))`
+c4=`EXT_COLOR $(($base+3))`
+c5=`EXT_COLOR $(($base+4))`
+
+
+function PROMPT_CHAR () {
+    git branch >/dev/null 2>/dev/null && echo "$c1 ⇲ (git)" && return
+    svn info >/dev/null 2>/dev/null && echo "$c1 ⇲ (svn)" && return
+}
+
+export PS1='\[\e[m\n\e[1;30m\][$$:$PPID \j:\!\[\e[1;30m\]] -$c1 \u@\H\[\e[1;30m\]:$c2${SSH_TTY} $c3+${SHLVL}\[\e[1;30m\]`PROMPT_CHAR`\033[0m $c4\w\[\e[0;37m\] \n($SHLVL:\!:$base)\$ '
+
+#[9835:9759 0:501] [\[\]nico@ncrovatti:/dev/pts/13 +2] ~ 
+#(2:501)$ 
+
