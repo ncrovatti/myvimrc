@@ -94,11 +94,12 @@ alias vi='vim'
 alias youtube-dl='youtube-dl -t -c '
 alias top='htop'
 alias ll='ls -la'
+alias cdw='cd /home/nico/workspace/pulse3'
 alias grep='ack-grep'
 export JSLINT_HOME='/home/nico/.vim/scripts/jslint/'
 
 if [ -f ~/.colorsrc ]; then
-    . ~/.colorsrc
+   . ~/.colorsrc
 fi
 
 

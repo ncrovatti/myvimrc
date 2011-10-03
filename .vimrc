@@ -47,13 +47,6 @@ let php_noShortTags = 1
 let php_parent_error_close = 1
 let php_parent_error_open = 1
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
-" Bubble Single Line
-nmap <C-Up> ddkP
-nmap <C-Down> ddp
-
-" Bubble multiple lines
-vmap <C-Up> xkP`[V`]
-vmap <C-Down> xp`[V`]
 
 " Wrap visual selectiosn with chars
 :vnoremap ( "zdi^V(<C-R>z)<ESC>
@@ -83,7 +76,6 @@ au BufRead,BufNewFile *.scss setlocal iskeyword+=-
 "set makeprg=cat\ %\ \\\|\ /usr/bin/js\ /home/nico/.vim/scripts/jslint/mylintrun.js\ %
 "set errorformat=%f:%l:%c:%m
 
-map <F8> <ESC>:tabnew 
 map <F1> <ESC>
 
 map <S-up> <C-w>h
@@ -147,10 +139,17 @@ let Tlist_WinWidth           = 30
 let Tlist_Enable_Fold_Column = 0
 let Tlist_Compact_Format     = 1
 
+
+
+
 map <S-R> :CommandT<CR>
 nmap <silent> <F3> <Plug>ToggleProject
 nnoremap <silent> <F4> :TlistToggle<CR>
 map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+map <F11> :e ~/commits <Bar> :r!svn st <CR>
+"<Bar> :g/^V.*$/d  <CR> 
+":g/^X.*$/d <CR> :g/^$/d <CR> :w <CR>
+map <F12> :e ~/buffer<CR>
 
 let g:miniBufExplTabWrap        = 1 " make tabs show complete (no broken on two lines)
 let g:miniBufExplUseSingleClick = 1
