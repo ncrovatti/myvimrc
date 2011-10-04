@@ -1,5 +1,5 @@
 set bg=dark
-set tabstop=4
+set tabstop=2
 set ls=2            " allways show status line
 set cmdheight=5
 set formatoptions=qroct
