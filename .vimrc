@@ -158,7 +158,7 @@ let g:miniBufExplVSplit         = 30
 let g:miniBufExplMaxWidth       = 0
 
 
-map <F5> :execute "vimgrep /" . expand("<cword>") . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
+map <F5> :execute "vimgrep /" . getline('.') . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
 
 let g:CommandTMaxFiles=30000
 
