@@ -143,12 +143,9 @@ let Tlist_Compact_Format     = 1
 
 
 map <S-R> :CommandT<CR>
-nmap <silent> <F3> <Plug>ToggleProject
+"nmap <silent> <F3> <Plug>ToggleProject
 nnoremap <silent> <F4> :TlistToggle<CR>
-map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 map <F11> :e ~/commits <Bar> :r!svn st <CR>
-"<Bar> :g/^V.*$/d  <CR> 
-":g/^X.*$/d <CR> :g/^$/d <CR> :w <CR>
 map <F12> :e ~/buffer<CR>
 
 let g:miniBufExplTabWrap        = 1 " make tabs show complete (no broken on two lines)
@@ -159,6 +156,10 @@ let g:miniBufExplMaxWidth       = 0
 
 
 map <F5> :execute "vimgrep /" . getline('.') . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
+map <F6> :execute "vimgrep /" . expand('<cword>'). "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
+map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+nnoremap <silent> <F9> :ConqueTerm bash<CR>
+nnoremap <silent> <C-D> :execute "!diff.sh " . getline('.')<CR>
 
 let g:CommandTMaxFiles=30000
 
@@ -166,5 +167,4 @@ autocmd InsertEnter * highlight StatusLine cterm=bold ctermfg=222
 autocmd InsertEnter * highlight CursorColumn ctermbg=23
 autocmd InsertLeave * highlight StatusLine cterm=none ctermfg=231
 autocmd InsertLeave * highlight CursorColumn ctermbg=237
-
 

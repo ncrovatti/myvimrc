@@ -158,7 +158,8 @@ snippet wh
 	}
 # do ... while
 snippet if
-	if (${1}) {
+	if (${1}) 
+	{
 		
 	}
 snippet ife
@@ -194,11 +195,13 @@ snippet case
 		${2}
 		break;${3}
 snippet for
-	for ($${2:i} = 0; $$2 < ${1:count}; $$2${3:++}) {
+	for ($${2:i} = 0; $$2 < ${1:count}; $$2${3:++}) 
+	{
 		${4: // code...}
 	}
 snippet foreach
-	foreach ($${1:variable} as $${2:key}) {
+	foreach ($${1:variable} as $${2:key}) 
+	{
 		${3}
 	}
 snippet fun
