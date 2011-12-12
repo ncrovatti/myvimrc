@@ -8,6 +8,7 @@ cp -vir $prefix/.bashrc ~/
 cp -vir $prefix/.colorsrc ~/
 cp -vr $prefix/.vim ~/
 cp -vr $prefix/.xmonad ~/
+cp -vr $prefix/gnomeConf ~/
 
 . ~/.bashrc
 
