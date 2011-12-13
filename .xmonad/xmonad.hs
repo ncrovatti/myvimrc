@@ -16,6 +16,7 @@ myHookManager = composeAll
 	, resource 	=? "chrome" --> doShift "3:chrome" -- Special-case the GIMP.
 	, className =? "irsii" --> doShift "5:chat" -- Special-case the GIMP.
 	, className =? "Thunderbird" --> doShift "6:mail" -- Special-case the GIMP.
+	, className =? "vim" --> doShift "2:code" -- Special-case the GIMP.
 	, manageDocks -- For xmobar and gnome-panel.
 	, manageHook gnomeConfig ] -- Gnome defaults.
 

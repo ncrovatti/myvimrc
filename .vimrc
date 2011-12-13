@@ -1,3 +1,4 @@
+set t_Co=256
 set bg=dark
 set tabstop=2
 set ls=2            " allways show status line
@@ -126,7 +127,7 @@ if has("gui_running")
   set mousehide " hide the mouse cursor when typing
 endif
 " }
-"cd /home/nico/workspace/pulse3
+cd /home/nico/workspace/pulse3
 set mouse=a
 
 let g:proj_window_width = 40
