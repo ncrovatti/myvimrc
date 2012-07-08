@@ -49,6 +49,7 @@ let php_parent_error_close = 1
 let php_parent_error_open = 1
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
+set clipboard=unnamed
 " Wrap visual selectiosn with chars
 :vnoremap ( "zdi^V(<C-R>z)<ESC>
 :vnoremap { "zdi^V{<C-R>z}<ESC>
@@ -67,6 +68,7 @@ autocmd BufWritePost *.perl !perl -c <afile>
 autocmd BufWritePost *.xml  !xmllint --noout <afile>
 autocmd BufWritePost *.scss !sass --trace -c <afile>
 autocmd BufRead *.scss set filetype=scss
+autocmd BufRead *.jade set filetype=jade
 au BufRead,BufNewFile *.js setlocal iskeyword+=: 
 au BufRead,BufNewFile *.js setlocal iskeyword+=- 
 au BufRead,BufNewFile *.css setlocal iskeyword+=- 
@@ -118,7 +120,7 @@ inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 if has("gui_running")
   set guioptions-=m " turn off menu bar
   set guioptions-=T " turn off toolbar
-  set guifont=Inconsolata\ Medium\ 12 " My favorite font
+  set guifont=Inconsolata\ Medium\ 10 " My favorite font
   set guioptions=ce 
   "              ||
   "              |+-- use simple dialogs rather than pop-ups
@@ -127,7 +129,7 @@ if has("gui_running")
   set mousehide " hide the mouse cursor when typing
 endif
 " }
-cd /home/nico/workspace/pulse3
+"cd /home/nico/workspace/pulse3
 set mouse=a
 
 let g:proj_window_width = 40

@@ -1,0 +1,1752 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<	.vim/ftplugin/html_autoclosetag.vim	/^ino <buffer> <silent> < <><left>$/;"	m
+<2-LeftMouse>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <2-LeftMouse>   \\|:call <SID>DoFoldOrOpenEntry('', 'e')<CR>$/;"	m
+<2-RightMouse>	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <2-RightMouse> <space>$/;"	m
+<3-LeftMouse>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <3-LeftMouse>  <Nop>$/;"	m
+<3-RightMouse>	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <3-RightMouse> <space>$/;"	m
+<4-RightMouse>	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <4-RightMouse> <space>$/;"	m
+<C-2-LeftMouse>	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <C-2-LeftMouse> <C-Return>$/;"	m
+<C-Down>	.vim/plugin/minibufexpl.vim	/^  noremap <C-Down>  <C-W>j$/;"	m
+<C-Down>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <C-Down> \\|:silent call <SID>MoveDown()<CR>$/;"	m
+<C-H>	.vim/plugin/minibufexpl.vim	/^  noremap <C-H> <C-W>h$/;"	m
+<C-J>	.vim/plugin/minibufexpl.vim	/^  noremap <C-J> <C-W>j$/;"	m
+<C-K>	.vim/plugin/minibufexpl.vim	/^  noremap <C-K> <C-W>k$/;"	m
+<C-L>	.vim/plugin/minibufexpl.vim	/^  noremap <C-L> <C-W>l$/;"	m
+<C-Left>	.vim/plugin/minibufexpl.vim	/^  noremap <C-Left>  <C-W>h$/;"	m
+<C-LeftMouse>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <C-LeftMouse>   <LeftMouse>$/;"	m
+<C-Return>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <C-Return> \\|:call <SID>DoFoldOrOpenEntry('silent! only', 'e')<CR>$/;"	m
+<C-Right>	.vim/plugin/minibufexpl.vim	/^  noremap <C-Right> <C-W>l$/;"	m
+<C-S-TAB>	.vim/plugin/minibufexpl.vim	/^  noremap <C-S-TAB> :call <SID>CycleBuffer(0)<CR>:<BS>$/;"	m
+<C-S-TAB>	.vim/plugin/minibufexpl.vim	/^  noremap <C-S-TAB> <C-W>W$/;"	m
+<C-TAB>	.vim/plugin/minibufexpl.vim	/^  noremap <C-TAB>   :call <SID>CycleBuffer(1)<CR>:<BS>$/;"	m
+<C-TAB>	.vim/plugin/minibufexpl.vim	/^  noremap <C-TAB>   <C-W>w$/;"	m
+<C-Up>	.vim/plugin/minibufexpl.vim	/^  noremap <C-Up>    <C-W>k$/;"	m
+<C-Up>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <C-Up>   \\|:silent call <SID>MoveUp()<CR>$/;"	m
+<C-W><C-O>	.vim/plugin/project.vim	/^                nmap <silent> <unique> <C-W><C-O> <C-W>o$/;"	m
+<C-W>o	.vim/plugin/project.vim	/^                nmap <silent> <unique> <C-W>o <Plug>ProjectOnly$/;"	m
+<C-^>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <C-^> <Nop>$/;"	m
+<F12>	.vim/plugin/project.vim	/^        nmap <silent> <F12> <Plug>ToggleProject$/;"	m
+<F1>	.vim/plugin/project.vim	/^        nnoremap <buffer> <F1> :let g:proj_doinghelp = 1<CR><F1>$/;"	m
+<F5>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent>           <F5> :call <SID>RefreshEntriesFromDir(1)<CR>$/;"	m
+<Leader>mbc	.vim/plugin/minibufexpl.vim	/^  map <unique> <Leader>mbc <Plug>CMiniBufExplorer$/;"	m
+<Leader>mbe	.vim/plugin/minibufexpl.vim	/^  map <unique> <Leader>mbe <Plug>MiniBufExplorer$/;"	m
+<Leader>mbt	.vim/plugin/minibufexpl.vim	/^  map <unique> <Leader>mbt <Plug>TMiniBufExplorer$/;"	m
+<Leader>mbu	.vim/plugin/minibufexpl.vim	/^  map <unique> <Leader>mbu <Plug>UMiniBufExplorer$/;"	m
+<LocalLeader>0	.vim/plugin/project.vim	/^        nnoremap <buffer>          <LocalLeader>0 \\|:call <SID>ListSpawn("")<CR>$/;"	m
+<LocalLeader><Down>	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <LocalLeader><Down> <C-Down>$/;"	m
+<LocalLeader><Up>	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <LocalLeader><Up> <C-Up>$/;"	m
+<LocalLeader>C	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>C :call <SID>CreateEntriesFromDir(1)<CR>$/;"	m
+<LocalLeader>E	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>E :call <SID>OpenEntry(line('.'), '', 'e', 1)<CR>$/;"	m
+<LocalLeader>F0	.vim/plugin/project.vim	/^        nnoremap <buffer>          <LocalLeader>F0 \\|:call <SID>ListSpawn("_fold")<CR>$/;"	m
+<LocalLeader>G	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>G \\|:call <SID>GrepAll(1, line('.'), "")<CR>$/;"	m
+<LocalLeader>I	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>I :echo Project_GetFname(line('.'))<CR>$/;"	m
+<LocalLeader>L	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>L \\|:call <SID>LoadAll(1, line('.'))<CR>$/;"	m
+<LocalLeader>R	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>R :call <SID>RefreshEntriesFromDir(1)<CR>$/;"	m
+<LocalLeader>S	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>S \\|:call <SID>LoadAllSplit(0, line('.'))<CR>$/;"	m
+<LocalLeader>T	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>T \\|:call <SID>DoFoldOrOpenEntry('', 'tabe')<CR>$/;"	m
+<LocalLeader>W	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>W \\|:call <SID>WipeAll(1, line('.'))<CR>$/;"	m
+<LocalLeader>c	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>c :call <SID>CreateEntriesFromDir(0)<CR>$/;"	m
+<LocalLeader>e	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>e :call <SID>OpenEntry(line('.'), '', '', 0)<CR>$/;"	m
+<LocalLeader>f0	.vim/plugin/project.vim	/^        nnoremap <buffer>          <LocalLeader>f0 \\|:call <SID>ListSpawn("_fold")<CR>$/;"	m
+<LocalLeader>g	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>g \\|:call <SID>GrepAll(0, line('.'), "")<CR>$/;"	m
+<LocalLeader>i	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>i :echo <SID>RecursivelyConstructDirectives(line('.'))<CR>$/;"	m
+<LocalLeader>l	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>l \\|:call <SID>LoadAll(0, line('.'))<CR>$/;"	m
+<LocalLeader>o	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <LocalLeader>o <C-Return>$/;"	m
+<LocalLeader>r	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>r :call <SID>RefreshEntriesFromDir(0)<CR>$/;"	m
+<LocalLeader>s	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <LocalLeader>s <S-Return>$/;"	m
+<LocalLeader>v	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <LocalLeader>v <M-CR>$/;"	m
+<LocalLeader>w	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <LocalLeader>w \\|:call <SID>WipeAll(0, line('.'))<CR>$/;"	m
+<M-2-LeftMouse>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <M-2-LeftMouse> <M-CR>$/;"	m
+<M-CR>	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <M-CR> <Return><C-W>p$/;"	m
+<Plug>CMiniBufExplorer	.vim/plugin/minibufexpl.vim	/^noremap <unique> <script> <Plug>CMiniBufExplorer :call <SID>StopExplorer(1)<CR>:<BS>$/;"	m
+<Plug>MiniBufExplorer	.vim/plugin/minibufexpl.vim	/^noremap <unique> <script> <Plug>MiniBufExplorer  :call <SID>StartExplorer(1, -1)<CR>:<BS>$/;"	m
+<Plug>ProjectOnly	.vim/plugin/project.vim	/^        nnoremap <script> <Plug>ProjectOnly :call <SID>DoProjectOnly()<CR>$/;"	m
+<Plug>TMiniBufExplorer	.vim/plugin/minibufexpl.vim	/^noremap <unique> <script> <Plug>TMiniBufExplorer :call <SID>ToggleExplorer()<CR>:<BS>$/;"	m
+<Plug>ToggleProject	.vim/plugin/project.vim	/^nnoremap <script> <Plug>ToggleProject :call <SID>DoToggleProject()<CR>$/;"	m
+<Plug>UMiniBufExplorer	.vim/plugin/minibufexpl.vim	/^noremap <unique> <script> <Plug>UMiniBufExplorer :call <SID>AutoUpdate(-1)<CR>:<BS>$/;"	m
+<Return>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <Return>   \\|:call <SID>DoFoldOrOpenEntry('', 'e')<CR>$/;"	m
+<RightMouse>	.vim/plugin/project.vim	/^        nmap     <buffer> <silent> <RightMouse>   <space>$/;"	m
+<S-2-LeftMouse>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <S-2-LeftMouse> \\|:call <SID>DoFoldOrOpenEntry('', 'sp')<CR>$/;"	m
+<S-LeftMouse>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <S-LeftMouse>   <LeftMouse>$/;"	m
+<S-Return>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <S-Return> \\|:call <SID>DoFoldOrOpenEntry('', 'sp')<CR>$/;"	m
+<SID>xx	.vim/plugin/taglist.vim	/^    map <SID>xx <SID>xx$/;"	m
+<c-r><tab>	.vim/after/plugin/snipMate.vim	/^ino <silent> <c-r><tab> <c-r>=ShowAvailableSnips()<cr>$/;"	m
+<cr>	.vim/ftplugin/html_autoclosetag.vim	/^ino <buffer> <expr> <cr> <SID>Return()$/;"	m
+<s-space>	.vim/after/plugin/snipMate.vim	/^ino <silent> <s-space> <c-r>=BackwardsSnippet()<cr>$/;"	m
+<space>	.vim/after/plugin/snipMate.vim	/^ino <silent> <space> <c-r>=TriggerSnippet()<cr>$/;"	m
+<space>	.vim/plugin/project.vim	/^        nnoremap <buffer> <silent> <space>  \\|:silent exec 'vertical resize '.(match(g:proj_flags, '\\Ct')!=-1 && winwidth('.') > g:proj_window_width?(g:proj_window_width):(winwidth('.') + g:proj_window_increment))<CR>$/;"	m
+>	.vim/ftplugin/html_autoclosetag.vim	/^ino <buffer> <silent> > <c-r>=<SID>CloseTag()<cr>$/;"	m
+AR	.vim/ruby/command-t/Makefile	/^AR = ar$/;"	m
+Ack	.vim/plugin/ack.vim	/^command! -bang -nargs=* -complete=file Ack call s:Ack('grep<bang>',<q-args>)$/;"	c
+Ack	.vim/plugin/ack.vim	/^function! s:Ack(cmd, args)$/;"	f
+AckAdd	.vim/plugin/ack.vim	/^command! -bang -nargs=* -complete=file AckAdd call s:Ack('grepadd<bang>', <q-args>)$/;"	c
+AckFile	.vim/plugin/ack.vim	/^command! -bang -nargs=* -complete=file AckFile call s:Ack('grep<bang> -g', <q-args>)$/;"	c
+AckFromSearch	.vim/plugin/ack.vim	/^command! -bang -nargs=* -complete=file AckFromSearch call s:AckFromSearch('grep<bang>', <q-args>)$/;"	c
+AckFromSearch	.vim/plugin/ack.vim	/^function! s:AckFromSearch(cmd, args)$/;"	f
+AddTabularPattern	.vim/plugin/Tabular.vim	/^com! -nargs=+ -bang AddTabularPattern$/;"	c
+AddTabularPattern	.vim/plugin/Tabular.vim	/^function! AddTabularPattern(command, force)$/;"	f
+AddTabularPipeline	.vim/plugin/Tabular.vim	/^com! -nargs=+ -bang AddTabularPipeline$/;"	c
+AddTabularPipeline	.vim/plugin/Tabular.vim	/^function! AddTabularPipeline(command, force)$/;"	f
+ApproximatePerComponent	.vim/plugin/CSApprox.vim	/^function! s:ApproximatePerComponent(r,g,b)$/;"	f
+AutoUpdate	.vim/plugin/minibufexpl.vim	/^function! <SID>AutoUpdate(delBufNum)$/;"	f
+BINDIR	.vim/ruby/command-t/Makefile	/^BINDIR        = $(bindir)$/;"	m
+BackwardsSnippet	.vim/plugin/snipMate.vim	/^fun! BackwardsSnippet()$/;"	f
+BuildBufferList	.vim/plugin/minibufexpl.vim	/^function! <SID>BuildBufferList(delBufNum, updateBufList)$/;"	f
+BuildTabStops	.vim/autoload/snipMate.vim	/^fun s:BuildTabStops(snip, lnum, col, indent)$/;"	f
+CC	.vim/ruby/command-t/Makefile	/^CC = gcc$/;"	m
+CFLAGS	.vim/ruby/command-t/Makefile	/^CFLAGS   =  -fPIC -fno-strict-aliasing -g -g -O2  -fPIC $(cflags) $/;"	m
+CLEANFILES	.vim/ruby/command-t/Makefile	/^CLEANFILES = mkmf.log$/;"	m
+CLEANLIBS	.vim/ruby/command-t/Makefile	/^CLEANLIBS     = $(TARGET).so $(TARGET).il? $(TARGET).tds $(TARGET).map$/;"	m
+CLEANOBJS	.vim/ruby/command-t/Makefile	/^CLEANOBJS     = *.o *.a *.s[ol] *.pdb *.exp *.bak$/;"	m
+CMiniBufExplorer	.vim/plugin/minibufexpl.vim	/^  command! CMiniBufExplorer  call <SID>StopExplorer(1)$/;"	c
+COPY	.vim/ruby/command-t/Makefile	/^COPY = cp$/;"	m
+CPPFLAGS	.vim/ruby/command-t/Makefile	/^CPPFLAGS = -DHAVE_RUBY_H  $(DEFS) $(cppflags)$/;"	m
+CSApprox	.vim/plugin/CSApprox.vim	/^augroup CSApprox$/;"	a
+CSApprox	.vim/plugin/CSApprox.vim	/^function! s:CSApprox()$/;"	f
+CSApproxImpl	.vim/plugin/CSApprox.vim	/^function! s:CSApproxImpl()$/;"	f
+CSApproxSnapshot	.vim/plugin/CSApprox.vim	/^command! -bang -nargs=1 -complete=file -bar CSApproxSnapshot$/;"	c
+CSApproxSnapshot	.vim/plugin/CSApprox.vim	/^function! s:CSApproxSnapshot(file, overwrite)$/;"	f
+CXXFLAGS	.vim/ruby/command-t/Makefile	/^CXXFLAGS = $(CFLAGS) $/;"	m
+Center	.vim/autoload/tabular.vim	/^function! s:Center(string, fieldwidth)$/;"	f
+ChooseCommandMap	.vim/plugin/Tabular.vim	/^function! s:ChooseCommandMap(commandline)$/;"	f
+ChooseSnippet	.vim/plugin/snipMate.vim	/^fun s:ChooseSnippet(scope, trigger)$/;"	f
+Close	.vim/ftplugin/html_snip_helper.vim	/^fun! Close()$/;"	f
+CloseTag	.vim/ftplugin/html_autoclosetag.vim	/^fun s:CloseTag()$/;"	f
+ClosingTag	.vim/ftplugin/html_autoclosetag.vim	/^fun s:ClosingTag(tag)$/;"	f
+CommandT	.vim/plugin/command-t.vim	/^command -nargs=? -complete=dir CommandT call <SID>CommandTShow(<q-args>)$/;"	c
+CommandT	.vim/ruby/command-t/controller.rb	/^module CommandT$/;"	m
+CommandT	.vim/ruby/command-t/finder.rb	/^module CommandT$/;"	m
+CommandT	.vim/ruby/command-t/match_window.rb	/^module CommandT$/;"	m
+CommandT	.vim/ruby/command-t/prompt.rb	/^module CommandT$/;"	m
+CommandT	.vim/ruby/command-t/scanner.rb	/^module CommandT$/;"	m
+CommandT	.vim/ruby/command-t/settings.rb	/^module CommandT$/;"	m
+CommandT	.vim/ruby/command-t/stub.rb	/^module CommandT$/;"	m
+CommandT	.vim/ruby/command-t/vim.rb	/^module CommandT$/;"	m
+CommandT	.vim/ruby/command-t/vim/screen.rb	/^module CommandT$/;"	m
+CommandT	.vim/ruby/command-t/vim/window.rb	/^module CommandT$/;"	m
+CommandTAcceptSelection	.vim/plugin/command-t.vim	/^function CommandTAcceptSelection()$/;"	f
+CommandTAcceptSelectionSplit	.vim/plugin/command-t.vim	/^function CommandTAcceptSelectionSplit()$/;"	f
+CommandTAcceptSelectionTab	.vim/plugin/command-t.vim	/^function CommandTAcceptSelectionTab()$/;"	f
+CommandTAcceptSelectionVSplit	.vim/plugin/command-t.vim	/^function CommandTAcceptSelectionVSplit()$/;"	f
+CommandTBackspace	.vim/plugin/command-t.vim	/^function CommandTBackspace()$/;"	f
+CommandTCancel	.vim/plugin/command-t.vim	/^function CommandTCancel()$/;"	f
+CommandTClear	.vim/plugin/command-t.vim	/^function CommandTClear()$/;"	f
+CommandTCursorEnd	.vim/plugin/command-t.vim	/^function CommandTCursorEnd()$/;"	f
+CommandTCursorLeft	.vim/plugin/command-t.vim	/^function CommandTCursorLeft()$/;"	f
+CommandTCursorRight	.vim/plugin/command-t.vim	/^function CommandTCursorRight()$/;"	f
+CommandTCursorStart	.vim/plugin/command-t.vim	/^function CommandTCursorStart()$/;"	f
+CommandTDelete	.vim/plugin/command-t.vim	/^function CommandTDelete()$/;"	f
+CommandTFlush	.vim/plugin/command-t.vim	/^command CommandTFlush call <SID>CommandTFlush()$/;"	c
+CommandTFlush	.vim/plugin/command-t.vim	/^function s:CommandTFlush()$/;"	f
+CommandTHandleKey	.vim/plugin/command-t.vim	/^function CommandTHandleKey(arg)$/;"	f
+CommandTMatch_initialize	.vim/ruby/command-t/match.c	/^VALUE CommandTMatch_initialize(int argc, VALUE *argv, VALUE self)$/;"	f	signature:(int argc, VALUE *argv, VALUE self)
+CommandTMatch_initialize	.vim/ruby/command-t/match.h	/^extern VALUE CommandTMatch_initialize(int argc, VALUE *argv, VALUE self);$/;"	p	signature:(int argc, VALUE *argv, VALUE self)
+CommandTMatch_matches	.vim/ruby/command-t/match.c	/^VALUE CommandTMatch_matches(VALUE self)$/;"	f	signature:(VALUE self)
+CommandTMatch_matches	.vim/ruby/command-t/match.h	/^extern VALUE CommandTMatch_matches(VALUE self);$/;"	p	signature:(VALUE self)
+CommandTMatch_score	.vim/ruby/command-t/match.h	/^extern VALUE CommandTMatch_score(VALUE self);$/;"	p	signature:(VALUE self)
+CommandTMatch_to_s	.vim/ruby/command-t/match.c	/^VALUE CommandTMatch_to_s(VALUE self)$/;"	f	signature:(VALUE self)
+CommandTMatch_to_s	.vim/ruby/command-t/match.h	/^extern VALUE CommandTMatch_to_s(VALUE self);$/;"	p	signature:(VALUE self)
+CommandTMatcher_initialize	.vim/ruby/command-t/matcher.c	/^VALUE CommandTMatcher_initialize(int argc, VALUE *argv, VALUE self)$/;"	f	signature:(int argc, VALUE *argv, VALUE self)
+CommandTMatcher_initialize	.vim/ruby/command-t/matcher.h	/^extern VALUE CommandTMatcher_initialize(int argc, VALUE *argv, VALUE self);$/;"	p	signature:(int argc, VALUE *argv, VALUE self)
+CommandTMatcher_matches_for	.vim/ruby/command-t/matcher.c	/^VALUE CommandTMatcher_matches_for(VALUE self, VALUE abbrev)$/;"	f	signature:(VALUE self, VALUE abbrev)
+CommandTMatcher_matches_for	.vim/ruby/command-t/matcher.h	/^extern VALUE CommandTMatcher_matches_for(VALUE self, VALUE abbrev);$/;"	p	signature:(VALUE self, VALUE abbrev)
+CommandTMatcher_sorted_matches_for	.vim/ruby/command-t/matcher.c	/^VALUE CommandTMatcher_sorted_matches_for(VALUE self, VALUE abbrev, VALUE options)$/;"	f	signature:(VALUE self, VALUE abbrev, VALUE options)
+CommandTMatcher_sorted_matches_for	.vim/ruby/command-t/matcher.h	/^extern VALUE CommandTMatcher_sorted_matches_for(VALUE self, VALUE abbrev, VALUE options);$/;"	p	signature:(VALUE self, VALUE abbrev, VALUE options)
+CommandTRubyWarning	.vim/plugin/command-t.vim	/^function s:CommandTRubyWarning()$/;"	f
+CommandTSelectNext	.vim/plugin/command-t.vim	/^function CommandTSelectNext()$/;"	f
+CommandTSelectPrev	.vim/plugin/command-t.vim	/^function CommandTSelectPrev()$/;"	f
+CommandTShow	.vim/plugin/command-t.vim	/^function s:CommandTShow(arg)$/;"	f
+CommandTToggleFocus	.vim/plugin/command-t.vim	/^function CommandTToggleFocus()$/;"	f
+CommandT_option_from_hash	.vim/ruby/command-t/ext.c	/^VALUE CommandT_option_from_hash(const char *option, VALUE hash)$/;"	f	signature:(const char *option, VALUE hash)
+CommandT_option_from_hash	.vim/ruby/command-t/ext.h	/^VALUE CommandT_option_from_hash(const char *option, VALUE hash);$/;"	p	signature:(const char *option, VALUE hash)
+CompleteTabularizeCommand	.vim/plugin/Tabular.vim	/^function! s:CompleteTabularizeCommand(argstart, cmdline, cursorpos)$/;"	f
+ConstructInfo	.vim/plugin/project.vim	/^    function! s:ConstructInfo(home, c_d, scriptin, scriptout, flags, filter)$/;"	f
+Controller	.vim/ruby/command-t/controller.rb	/^  class Controller$/;"	c	class:CommandT
+Count	.vim/autoload/snipMate.vim	/^fun s:Count(haystack, needle)$/;"	f
+CountInPage	.vim/ftplugin/html_autoclosetag.vim	/^fun s:CountInPage(needle)$/;"	f
+CreateEntriesFromDir	.vim/plugin/project.vim	/^    function! s:CreateEntriesFromDir(recursive)$/;"	f
+CycleBuffer	.vim/plugin/minibufexpl.vim	/^function! <SID>CycleBuffer(forward)$/;"	f
+DEBUG	.vim/plugin/minibufexpl.vim	/^function! <SID>DEBUG(msg, level)$/;"	f
+DEFFILE	.vim/ruby/command-t/Makefile	/^DEFFILE = $/;"	m
+DEFS	.vim/ruby/command-t/Makefile	/^DEFS     = $/;"	m
+DISTCLEANFILES	.vim/ruby/command-t/Makefile	/^DISTCLEANFILES = $/;"	m
+DLDFLAGS	.vim/ruby/command-t/Makefile	/^DLDFLAGS = $(ldflags) $(dldflags) $(archflag)$/;"	m
+DLLIB	.vim/ruby/command-t/Makefile	/^DLLIB = $(TARGET).so$/;"	m
+DefineSnips	.vim/plugin/snipMate.vim	/^fun s:DefineSnips(dir, aliasft, realft)$/;"	f
+DisplayBuffers	.vim/plugin/minibufexpl.vim	/^function! <SID>DisplayBuffers(delBufNum)$/;"	f
+DisplayInfo	.vim/plugin/project.vim	/^    function! s:DisplayInfo()$/;"	f
+DoEnsurePlacementSize_au	.vim/plugin/project.vim	/^    function! s:DoEnsurePlacementSize_au()$/;"	f
+DoEntryFromDir	.vim/plugin/project.vim	/^    function! s:DoEntryFromDir(recursive, line, name, absolute_dir, dir, c_d, filter_directive, filter, foldlev, sort)$/;"	f
+DoFoldOrOpenEntry	.vim/plugin/project.vim	/^    function! s:DoFoldOrOpenEntry(cmd0, cmd1)$/;"	f
+DoProjectOnly	.vim/plugin/project.vim	/^        function! s:DoProjectOnly()$/;"	f
+DoSetup	.vim/plugin/project.vim	/^    function! s:DoSetup()$/;"	f
+DoSetupAndSplit	.vim/plugin/project.vim	/^    function! s:DoSetupAndSplit()$/;"	f
+DoSetupAndSplit_au	.vim/plugin/project.vim	/^    function! s:DoSetupAndSplit_au()$/;"	f
+DoToggleProject	.vim/plugin/project.vim	/^    function! s:DoToggleProject()$/;"	f
+EXEEXT	.vim/ruby/command-t/Makefile	/^EXEEXT = $/;"	m
+EXTSTATIC	.vim/ruby/command-t/Makefile	/^EXTSTATIC = $/;"	m
+ExtractSnips	.vim/plugin/snipMate.vim	/^fun! ExtractSnips(dir, ft)$/;"	f
+ExtractSnipsFile	.vim/plugin/snipMate.vim	/^fun! ExtractSnipsFile(file, ft)$/;"	f
+FileLimitExceeded	.vim/ruby/command-t/scanner.rb	/^    class FileLimitExceeded < ::RuntimeError; end$/;"	c	class:CommandT.Scanner
+Filename	.vim/autoload/snipMate.vim	/^fun! Filename(...)$/;"	f
+FilterString	.vim/autoload/tabular.vim	/^function! s:FilterString(lines, commandstring)$/;"	f
+FindCreateWindow	.vim/plugin/minibufexpl.vim	/^function! <SID>FindCreateWindow(bufName, forceEdge, isExplorer, doDebug)$/;"	f
+FindFoldBottom	.vim/plugin/project.vim	/^    function! s:FindFoldBottom(line)$/;"	f
+FindFoldTop	.vim/plugin/project.vim	/^    function! s:FindFoldTop(line)$/;"	f
+FindWindow	.vim/plugin/minibufexpl.vim	/^function! <SID>FindWindow(bufName, doDebug)$/;"	f
+Finder	.vim/ruby/command-t/finder.rb	/^  class Finder$/;"	c	class:CommandT
+FixupCtermInfo	.vim/plugin/CSApprox.vim	/^function! s:FixupCtermInfo(highlights)$/;"	f
+FixupGuiInfo	.vim/plugin/CSApprox.vim	/^function! s:FixupGuiInfo(highlights)$/;"	f
+GenerateEntry	.vim/plugin/project.vim	/^    function! s:GenerateEntry(recursive, line, name, absolute_dir, dir, c_d, filter_directive, filter, foldlev, sort)$/;"	f
+GetCd	.vim/plugin/project.vim	/^    function! s:GetCd(info, home)$/;"	f
+GetCurrentTag	.vim/ftplugin/html_autoclosetag.vim	/^fun s:GetCurrentTag()$/;"	f
+GetFilter	.vim/plugin/project.vim	/^    function! s:GetFilter(info, parent_filter)$/;"	f
+GetFlags	.vim/plugin/project.vim	/^    function! s:GetFlags(info)$/;"	f
+GetHome	.vim/plugin/project.vim	/^    function! s:GetHome(info, parent_home)$/;"	f
+GetScriptin	.vim/plugin/project.vim	/^    function! s:GetScriptin(info, home)$/;"	f
+GetScriptout	.vim/plugin/project.vim	/^    function! s:GetScriptout(info, home)$/;"	f
+GetSelectedBuffer	.vim/plugin/minibufexpl.vim	/^function! <SID>GetSelectedBuffer()$/;"	f
+GetSnippet	.vim/plugin/snipMate.vim	/^fun s:GetSnippet(word, scope)$/;"	f
+GetSnippets	.vim/plugin/snipMate.vim	/^fun! GetSnippets(dir, filetypes)$/;"	f
+GrepAll	.vim/plugin/project.vim	/^    function! s:GrepAll(recurse, lineno, pattern)$/;"	f
+HandleHooks	.vim/plugin/CSApprox.vim	/^function! s:HandleHooks(type, ...)$/;"	f
+HasEligibleBuffers	.vim/plugin/minibufexpl.vim	/^function! <SID>HasEligibleBuffers(delBufNum)$/;"	f
+Highlights	.vim/plugin/CSApprox.vim	/^function! s:Highlights(modes)$/;"	f
+INCFLAGS	.vim/ruby/command-t/Makefile	/^INCFLAGS = -I. -I$(topdir) -I$(hdrdir) -I$(srcdir)$/;"	m
+INSTALL	.vim/ruby/command-t/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	.vim/ruby/command-t/Makefile	/^INSTALL_DATA = $(INSTALL) -m 644$/;"	m
+INSTALL_PROG	.vim/ruby/command-t/Makefile	/^INSTALL_PROG = $(INSTALL) -m 0755$/;"	m
+InComment	.vim/ftplugin/html_autoclosetag.vim	/^fun s:InComment()$/;"	f
+Init_ext	.vim/ruby/command-t/ext.c	/^void Init_ext()$/;"	f
+IntCompare	.vim/plugin/CSApprox.vim	/^function! s:IntCompare(i1, i2)$/;"	f
+IsAbsolutePath	.vim/plugin/project.vim	/^    function! s:IsAbsolutePath(path)$/;"	f
+LAck	.vim/plugin/ack.vim	/^command! -bang -nargs=* -complete=file LAck call s:Ack('lgrep<bang>', <q-args>)$/;"	c
+LAckAdd	.vim/plugin/ack.vim	/^command! -bang -nargs=* -complete=file LAckAdd call s:Ack('lgrepadd<bang>', <q-args>)$/;"	c
+LDSHARED	.vim/ruby/command-t/Makefile	/^LDSHARED = $(CC) -shared$/;"	m
+LIBPATH	.vim/ruby/command-t/Makefile	/^LIBPATH =  -L. -L$(libdir)$/;"	m
+LIBRUBY	.vim/ruby/command-t/Makefile	/^LIBRUBY = $(LIBRUBY_SO)$/;"	m
+LIBRUBYARG_SHARED	.vim/ruby/command-t/Makefile	/^LIBRUBYARG_SHARED = -l$(RUBY_SO_NAME)$/;"	m
+LIBRUBYARG_STATIC	.vim/ruby/command-t/Makefile	/^LIBRUBYARG_STATIC = -l$(RUBY_SO_NAME)-static$/;"	m
+LIBRUBY_A	.vim/ruby/command-t/Makefile	/^LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a$/;"	m
+LIBS	.vim/ruby/command-t/Makefile	/^LIBS = $(LIBRUBYARG_SHARED)  -lpthread -lrt -ldl -lcrypt -lm   -lc$/;"	m
+LOCAL_LIBS	.vim/ruby/command-t/Makefile	/^LOCAL_LIBS = $/;"	m
+Left	.vim/autoload/tabular.vim	/^function! s:Left(string, fieldwidth)$/;"	f
+ListSpawn	.vim/plugin/project.vim	/^    function! s:ListSpawn(varnamesegment)$/;"	f
+LoadAll	.vim/plugin/project.vim	/^    function! s:LoadAll(recurse, line)$/;"	f
+LoadAllSplit	.vim/plugin/project.vim	/^    function! s:LoadAllSplit(recurse, line)$/;"	f
+MAKEDIRS	.vim/ruby/command-t/Makefile	/^MAKEDIRS = mkdir -p$/;"	m
+MBEClick	.vim/plugin/minibufexpl.vim	/^function! s:MBEClick()$/;"	f
+MBEDeleteBuffer	.vim/plugin/minibufexpl.vim	/^function! <SID>MBEDeleteBuffer()$/;"	f
+MBEDoubleClick	.vim/plugin/minibufexpl.vim	/^function! s:MBEDoubleClick()$/;"	f
+MBESelectBuffer	.vim/plugin/minibufexpl.vim	/^function! <SID>MBESelectBuffer()$/;"	f
+MBEbn	.vim/plugin/minibufexpl.vim	/^  command! MBEbn call <SID>CycleBuffer(1)$/;"	c
+MBEbp	.vim/plugin/minibufexpl.vim	/^  command! MBEbp call <SID>CycleBuffer(0)$/;"	c
+MakeSnip	.vim/plugin/snipMate.vim	/^fun! MakeSnip(scope, trigger, content, ...)$/;"	f
+MatchWindow	.vim/ruby/command-t/match_window.rb	/^  class MatchWindow$/;"	c	class:CommandT
+Max	.vim/plugin/minibufexpl.vim	/^function! <SID>Max(argOne, argTwo)$/;"	f
+MiniBufExplorer	.vim/plugin/minibufexpl.vim	/^  command! MiniBufExplorer  call <SID>StartExplorer(1, -1)$/;"	c
+MiniBufExplorer	.vim/plugin/minibufexpl.vim	/^augroup MiniBufExplorer$/;"	a
+MoveDown	.vim/plugin/project.vim	/^    function! s:MoveDown()$/;"	f
+MoveUp	.vim/plugin/project.vim	/^    function! s:MoveUp()$/;"	f
+NearestElemInList	.vim/plugin/CSApprox.vim	/^function! s:NearestElemInList(elem, list)$/;"	f
+NeedRedirFallback	.vim/plugin/CSApprox.vim	/^function! s:NeedRedirFallback()$/;"	f
+NormalizeAttrMap	.vim/plugin/CSApprox.vim	/^function! s:NormalizeAttrMap(map)$/;"	f
+OBJS	.vim/ruby/command-t/Makefile	/^OBJS = matcher.o ext.o match.o$/;"	m
+OpenEntry	.vim/plugin/project.vim	/^    function! s:OpenEntry(line, precmd, editcmd, dir)$/;"	f
+OpenEntry2	.vim/plugin/project.vim	/^    function! s:OpenEntry2(line, infoline, fname, editcmd)$/;"	f
+ParsePattern	.vim/plugin/Tabular.vim	/^function! s:ParsePattern(string)$/;"	f
+ProcessFile	.vim/plugin/snipMate.vim	/^fun s:ProcessFile(file, ft, ...)$/;"	f
+ProcessSnippet	.vim/autoload/snipMate.vim	/^fun s:ProcessSnippet(snip)$/;"	f
+Project	.vim/plugin/project.vim	/^    command -nargs=? -complete=file Project call <SID>Project('<args>')$/;"	c
+Project	.vim/plugin/project.vim	/^function! s:Project(filename) " <<<$/;"	f
+Project_ForEach	.vim/plugin/project.vim	/^    function! Project_ForEach(recurse, lineno, cmd, data, match)$/;"	f
+Project_ForEachR	.vim/plugin/project.vim	/^    function! s:Project_ForEachR(recurse, lineno, info, cmd, data, match)$/;"	f
+Project_GetAllFnames	.vim/plugin/project.vim	/^    function! Project_GetAllFnames(recurse, lineno, separator)$/;"	f
+Project_GetFname	.vim/plugin/project.vim	/^    function! Project_GetFname(line)$/;"	f
+Prompt	.vim/ruby/command-t/prompt.rb	/^  class Prompt$/;"	c	class:CommandT
+RARRAY_LEN	.vim/ruby/command-t/ruby_compat.h	43;"	d
+RARRAY_PTR	.vim/ruby/command-t/ruby_compat.h	38;"	d
+RFLOAT_VALUE	.vim/ruby/command-t/ruby_compat.h	48;"	d
+RM	.vim/ruby/command-t/Makefile	/^RM = rm -f$/;"	m
+RSTRING_LEN	.vim/ruby/command-t/ruby_compat.h	33;"	d
+RSTRING_PTR	.vim/ruby/command-t/ruby_compat.h	28;"	d
+RUBY	.vim/ruby/command-t/Makefile	/^RUBY = $(ruby)$/;"	m
+RUBYARCHDIR	.vim/ruby/command-t/Makefile	/^RUBYARCHDIR   = $(sitearchdir)$(target_prefix)$/;"	m
+RUBYCOMMONDIR	.vim/ruby/command-t/Makefile	/^RUBYCOMMONDIR = $(sitedir)$(target_prefix)$/;"	m
+RUBYLIBDIR	.vim/ruby/command-t/Makefile	/^RUBYLIBDIR    = $(sitelibdir)$(target_prefix)$/;"	m
+RUBY_EXTCONF_H	.vim/ruby/command-t/Makefile	/^RUBY_EXTCONF_H = $/;"	m
+RUBY_INSTALL_NAME	.vim/ruby/command-t/Makefile	/^RUBY_INSTALL_NAME = ruby1.8$/;"	m
+RUBY_SO_NAME	.vim/ruby/command-t/Makefile	/^RUBY_SO_NAME = ruby1.8$/;"	m
+RecordPrevBuffer_au	.vim/plugin/project.vim	/^    function! s:RecordPrevBuffer_au()$/;"	f
+RecursivelyConstructDirectives	.vim/plugin/project.vim	/^    function! s:RecursivelyConstructDirectives(lineno)$/;"	f
+RefreshEntriesFromDir	.vim/plugin/project.vim	/^    function! s:RefreshEntriesFromDir(recursive)$/;"	f
+RemoveSnippet	.vim/autoload/snipMate.vim	/^fun s:RemoveSnippet()$/;"	f
+ResetSnippets	.vim/plugin/snipMate.vim	/^fun! ResetSnippets()$/;"	f
+ResizeWindow	.vim/plugin/minibufexpl.vim	/^function! <SID>ResizeWindow()$/;"	f
+Return	.vim/ftplugin/html_autoclosetag.vim	/^fun s:Return()$/;"	f
+Right	.vim/autoload/tabular.vim	/^function! s:Right(string, fieldwidth)$/;"	f
+SHELL	.vim/ruby/command-t/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SRCS	.vim/ruby/command-t/Makefile	/^SRCS = matcher.c ext.c match.c$/;"	m
+STATIC_LIB	.vim/ruby/command-t/Makefile	/^STATIC_LIB = $/;"	m
+Scanner	.vim/ruby/command-t/scanner.rb	/^  class Scanner$/;"	c	class:CommandT
+Screen	.vim/ruby/command-t/vim/screen.rb	/^    module Screen$/;"	m	class:CommandT.VIM
+SelectWord	.vim/autoload/snipMate.vim	/^fun s:SelectWord()$/;"	f
+SetCtermFromGui	.vim/plugin/CSApprox.vim	/^function! s:SetCtermFromGui(hl)$/;"	f
+SetLines	.vim/autoload/tabular.vim	/^function! s:SetLines(start, len, strings)$/;"	f
+Settings	.vim/ruby/command-t/settings.rb	/^  class Settings$/;"	c	class:CommandT
+SetupAutoCommand	.vim/plugin/project.vim	/^    function! s:SetupAutoCommand(cwd)$/;"	f
+SetupScriptAutoCommand	.vim/plugin/project.vim	/^    function! s:SetupScriptAutoCommand(bufcmd, script)$/;"	f
+ShowAvailableSnips	.vim/plugin/snipMate.vim	/^fun! ShowAvailableSnips()$/;"	f
+ShowBuffers	.vim/plugin/minibufexpl.vim	/^function! <SID>ShowBuffers(delBufNum)$/;"	f
+SortR	.vim/plugin/project.vim	/^    function! s:SortR(start, end)$/;"	f
+Spawn	.vim/plugin/project.vim	/^    function! s:Spawn(number)$/;"	f
+SpawnAll	.vim/plugin/project.vim	/^    function! s:SpawnAll(recurse, number)$/;"	f
+SplitCDeclarations	.vim/after/plugin/TabularMaps.vim	/^function! SplitCDeclarations(lines)$/;"	f
+SplitCommands	.vim/plugin/Tabular.vim	/^function! s:SplitCommands(string)$/;"	f
+SplitDelim	.vim/autoload/tabular.vim	/^function! s:SplitDelim(string, delim)$/;"	f
+StartExplorer	.vim/plugin/minibufexpl.vim	/^function! <SID>StartExplorer(sticky, delBufNum)$/;"	f
+StopExplorer	.vim/plugin/minibufexpl.vim	/^function! <SID>StopExplorer(sticky)$/;"	f
+StripLeadingSpaces	.vim/autoload/tabular.vim	/^function! s:StripLeadingSpaces(string)$/;"	f
+StripTrailingSpaces	.vim/autoload/tabular.vim	/^function! s:StripTrailingSpaces(string)$/;"	f
+Strlen	.vim/autoload/tabular.vim	/^function! s:Strlen(string)$/;"	f
+Stub	.vim/ruby/command-t/stub.rb	/^  class Stub$/;"	c	class:CommandT
+SynGuiSp	.vim/plugin/CSApprox.vim	/^function! s:SynGuiSp(idx, name)$/;"	f
+SynGuiSpAttr	.vim/plugin/CSApprox.vim	/^function! s:SynGuiSpAttr(idx)$/;"	f
+SynGuiSpRedir	.vim/plugin/CSApprox.vim	/^function! s:SynGuiSpRedir(name)$/;"	f
+TARGET	.vim/ruby/command-t/Makefile	/^TARGET = ext$/;"	m
+TARGET_SO	.vim/ruby/command-t/Makefile	/^TARGET_SO     = $(DLLIB)$/;"	m
+TMiniBufExplorer	.vim/plugin/minibufexpl.vim	/^  command! TMiniBufExplorer  call <SID>ToggleExplorer()$/;"	c
+Tabularize	.vim/plugin/Tabular.vim	/^   \\ Tabularize <line1>,<line2>call Tabularize(<q-args>)$/;"	c
+Tabularize	.vim/plugin/Tabular.vim	/^function! Tabularize(command) range$/;"	f
+TagList_IsValid	.vim/plugin/taglist.vim	/^function! TagList_IsValid()$/;"	f
+TagList_Start	.vim/plugin/taglist.vim	/^function! TagList_Start()$/;"	f
+TagList_WrapUp	.vim/plugin/taglist.vim	/^function! TagList_WrapUp()$/;"	f
+TagList_title	.vim/plugin/taglist.vim	/^    let TagList_title = "__Tag_List__"$/;"	v
+Tlist	.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar Tlist TlistToggle$/;"	c
+TlistAddFiles	.vim/plugin/taglist.vim	/^    command! -nargs=+ -complete=file TlistAddFiles$/;"	c
+TlistAddFilesRecursive	.vim/plugin/taglist.vim	/^    command! -nargs=+ -complete=dir TlistAddFilesRecursive$/;"	c
+TlistClose	.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistClose call s:Tlist_Window_Close()$/;"	c
+TlistDebug	.vim/plugin/taglist.vim	/^    command! -nargs=? -complete=file -bar TlistDebug$/;"	c
+TlistHighlightTag	.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistHighlightTag call s:Tlist_Window_Highlight_Tag($/;"	c
+TlistLock	.vim/plugin/taglist.vim	/^    command! -bar TlistLock let Tlist_Auto_Update=0$/;"	c
+TlistMessages	.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistMessages call s:Tlist_Debug_Show()$/;"	c
+TlistOpen	.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistOpen call s:Tlist_Window_Open()$/;"	c
+TlistSessionLoad	.vim/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionLoad$/;"	c
+TlistSessionSave	.vim/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionSave$/;"	c
+TlistShowPrototype	.vim/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowPrototype$/;"	c
+TlistShowTag	.vim/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowTag$/;"	c
+TlistSync	.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistSync TlistHighlightTag$/;"	c
+TlistToggle	.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistToggle call s:Tlist_Window_Toggle()$/;"	c
+TlistUndebug	.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUndebug  call s:Tlist_Debug_Disable()$/;"	c
+TlistUnlock	.vim/plugin/taglist.vim	/^    command! -bar TlistUnlock let Tlist_Auto_Update=1$/;"	c
+TlistUpdate	.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUpdate call s:Tlist_Update_Current_File()$/;"	c
+Tlist_Add_Files	.vim/plugin/taglist.vim	/^function! s:Tlist_Add_Files(...)$/;"	f
+Tlist_Add_Files_Recursive	.vim/plugin/taglist.vim	/^function! s:Tlist_Add_Files_Recursive(dir, ...)$/;"	f
+Tlist_Auto_Highlight_Tag	.vim/plugin/taglist.vim	/^        let Tlist_Auto_Highlight_Tag = 1$/;"	v
+Tlist_Auto_Open	.vim/plugin/taglist.vim	/^        let Tlist_Auto_Open = 0$/;"	v
+Tlist_Auto_Update	.vim/plugin/taglist.vim	/^        let Tlist_Auto_Update = 1$/;"	v
+Tlist_Ballon_Expr	.vim/plugin/taglist.vim	/^function! Tlist_Ballon_Expr()$/;"	f
+Tlist_Buffer_Removed	.vim/plugin/taglist.vim	/^function! s:Tlist_Buffer_Removed(filename)$/;"	f
+Tlist_Change_Sort	.vim/plugin/taglist.vim	/^function! s:Tlist_Change_Sort(caller, action, sort_type)$/;"	f
+Tlist_Close_On_Select	.vim/plugin/taglist.vim	/^        let Tlist_Close_On_Select = 0$/;"	v
+Tlist_Compact_Format	.vim/plugin/taglist.vim	/^        let Tlist_Compact_Format = 0$/;"	v
+Tlist_Ctags_Cmd	.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags'$/;"	v
+Tlist_Ctags_Cmd	.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags.exe'$/;"	v
+Tlist_Ctags_Cmd	.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exctags'$/;"	v
+Tlist_Ctags_Cmd	.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exuberant-ctags'$/;"	v
+Tlist_Ctags_Cmd	.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'tags'$/;"	v
+Tlist_Debug_Disable	.vim/plugin/taglist.vim	/^function! s:Tlist_Debug_Disable(...)$/;"	f
+Tlist_Debug_Enable	.vim/plugin/taglist.vim	/^function! s:Tlist_Debug_Enable(...)$/;"	f
+Tlist_Debug_Show	.vim/plugin/taglist.vim	/^function! s:Tlist_Debug_Show()$/;"	f
+Tlist_Detect_Filetype	.vim/plugin/taglist.vim	/^function! s:Tlist_Detect_Filetype(fname)$/;"	f
+Tlist_Discard_FileInfo	.vim/plugin/taglist.vim	/^function! s:Tlist_Discard_FileInfo(fidx)$/;"	f
+Tlist_Discard_TagInfo	.vim/plugin/taglist.vim	/^function! s:Tlist_Discard_TagInfo(fidx)$/;"	f
+Tlist_Display_Prototype	.vim/plugin/taglist.vim	/^        let Tlist_Display_Prototype = 0$/;"	v
+Tlist_Display_Tag_Scope	.vim/plugin/taglist.vim	/^        let Tlist_Display_Tag_Scope = 1$/;"	v
+Tlist_Enable_Fold_Column	.vim/plugin/taglist.vim	/^        let Tlist_Enable_Fold_Column = 1$/;"	v
+Tlist_Exe_Cmd_No_Acmds	.vim/plugin/taglist.vim	/^function! s:Tlist_Exe_Cmd_No_Acmds(cmd)$/;"	f
+Tlist_Exit_OnlyWindow	.vim/plugin/taglist.vim	/^        let Tlist_Exit_OnlyWindow = 0$/;"	v
+Tlist_Extract_Tag_Scope	.vim/plugin/taglist.vim	/^function! s:Tlist_Extract_Tag_Scope(tag_line)$/;"	f
+Tlist_Extract_Tagtype	.vim/plugin/taglist.vim	/^function! s:Tlist_Extract_Tagtype(tag_line)$/;"	f
+Tlist_FileType_Init	.vim/plugin/taglist.vim	/^function! s:Tlist_FileType_Init(ftype)$/;"	f
+Tlist_File_Fold_Auto_Close	.vim/plugin/taglist.vim	/^        let Tlist_File_Fold_Auto_Close = 0$/;"	v
+Tlist_Find_Nearest_Tag_Idx	.vim/plugin/taglist.vim	/^function! s:Tlist_Find_Nearest_Tag_Idx(fidx, linenum)$/;"	f
+Tlist_GainFocus_On_ToggleOpen	.vim/plugin/taglist.vim	/^        let Tlist_GainFocus_On_ToggleOpen = 0$/;"	v
+Tlist_Get_Buffer_Filetype	.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Buffer_Filetype(bnum)$/;"	f
+Tlist_Get_File_Index	.vim/plugin/taglist.vim	/^function! s:Tlist_Get_File_Index(fname)$/;"	f
+Tlist_Get_Tag_Linenum	.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Linenum(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype	.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Prototype(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype_By_Line	.vim/plugin/taglist.vim	/^function! Tlist_Get_Tag_Prototype_By_Line(...)$/;"	f
+Tlist_Get_Tag_SearchPat	.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_SearchPat(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Type_By_Tag	.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Type_By_Tag(fidx, tidx)$/;"	f
+Tlist_Get_Tagname_By_Line	.vim/plugin/taglist.vim	/^function! Tlist_Get_Tagname_By_Line(...)$/;"	f
+Tlist_Highlight_Tag_On_BufEnter	.vim/plugin/taglist.vim	/^        let Tlist_Highlight_Tag_On_BufEnter = 1$/;"	v
+Tlist_Inc_Winwidth	.vim/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 0$/;"	v
+Tlist_Inc_Winwidth	.vim/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 1$/;"	v
+Tlist_Init_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Init_File(filename, ftype)$/;"	f
+Tlist_Log_Msg	.vim/plugin/taglist.vim	/^function! s:Tlist_Log_Msg(msg)$/;"	f
+Tlist_Max_Submenu_Items	.vim/plugin/taglist.vim	/^        let Tlist_Max_Submenu_Items = 20$/;"	v
+Tlist_Max_Tag_Length	.vim/plugin/taglist.vim	/^        let Tlist_Max_Tag_Length = 10$/;"	v
+Tlist_Menu_Add_Base_Menu	.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Add_Base_Menu()$/;"	f
+Tlist_Menu_File_Refresh	.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_File_Refresh(fidx)$/;"	f
+Tlist_Menu_Get_Tag_Type_Cmd	.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Get_Tag_Type_Cmd(fidx, ftype, add_ttype_name, ttype_idx)$/;"	f
+Tlist_Menu_Init	.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Init()$/;"	f
+Tlist_Menu_Jump_To_Tag	.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Jump_To_Tag(tidx)$/;"	f
+Tlist_Menu_Refresh	.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Refresh()$/;"	f
+Tlist_Menu_Remove_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Remove_File()$/;"	f
+Tlist_Menu_Update_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Update_File(clear_menu)$/;"	f
+Tlist_Parse_Tagline	.vim/plugin/taglist.vim	/^function! s:Tlist_Parse_Tagline(tag_line)$/;"	f
+Tlist_Post_Close_Cleanup	.vim/plugin/taglist.vim	/^function! s:Tlist_Post_Close_Cleanup()$/;"	f
+Tlist_Process_Dir	.vim/plugin/taglist.vim	/^function! s:Tlist_Process_Dir(dir_name, pat)$/;"	f
+Tlist_Process_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Process_File(filename, ftype)$/;"	f
+Tlist_Process_File_Always	.vim/plugin/taglist.vim	/^        let Tlist_Process_File_Always = 0$/;"	v
+Tlist_Process_Filelist	.vim/plugin/taglist.vim	/^function! s:Tlist_Process_Filelist(file_names)$/;"	f
+Tlist_Refresh	.vim/plugin/taglist.vim	/^function! s:Tlist_Refresh()$/;"	f
+Tlist_Refresh_Folds	.vim/plugin/taglist.vim	/^function! s:Tlist_Refresh_Folds()$/;"	f
+Tlist_Remove_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Remove_File(file_idx, user_request)$/;"	f
+Tlist_Session_Load	.vim/plugin/taglist.vim	/^function! s:Tlist_Session_Load(...)$/;"	f
+Tlist_Session_Save	.vim/plugin/taglist.vim	/^function! s:Tlist_Session_Save(...)$/;"	f
+Tlist_Set_App	.vim/plugin/taglist.vim	/^function! Tlist_Set_App(name)$/;"	f
+Tlist_Show_Menu	.vim/plugin/taglist.vim	/^        let Tlist_Show_Menu = 0$/;"	v
+Tlist_Show_One_File	.vim/plugin/taglist.vim	/^        let Tlist_Show_One_File = 0$/;"	v
+Tlist_Skip_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Skip_File(filename, ftype)$/;"	f
+Tlist_Sort_Type	.vim/plugin/taglist.vim	/^        let Tlist_Sort_Type = 'order'$/;"	v
+Tlist_Update_Current_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Update_Current_File()$/;"	f
+Tlist_Update_File	.vim/plugin/taglist.vim	/^function! Tlist_Update_File(filename, ftype)$/;"	f
+Tlist_Update_Remove_List	.vim/plugin/taglist.vim	/^function! s:Tlist_Update_Remove_List(filename, add)$/;"	f
+Tlist_Use_Horiz_Window	.vim/plugin/taglist.vim	/^        let Tlist_Use_Horiz_Window = 0$/;"	v
+Tlist_Use_Right_Window	.vim/plugin/taglist.vim	/^        let Tlist_Use_Right_Window = 0$/;"	v
+Tlist_Use_SingleClick	.vim/plugin/taglist.vim	/^        let Tlist_Use_SingleClick = 0$/;"	v
+Tlist_User_Removed_File	.vim/plugin/taglist.vim	/^function! s:Tlist_User_Removed_File(filename)$/;"	f
+Tlist_Vim_Session_Load	.vim/plugin/taglist.vim	/^function! s:Tlist_Vim_Session_Load()$/;"	f
+Tlist_Warning_Msg	.vim/plugin/taglist.vim	/^function! s:Tlist_Warning_Msg(msg)$/;"	f
+Tlist_WinHeight	.vim/plugin/taglist.vim	/^        let Tlist_WinHeight = 10$/;"	v
+Tlist_WinWidth	.vim/plugin/taglist.vim	/^        let Tlist_WinWidth = 30$/;"	v
+Tlist_Window_Check_Auto_Open	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Auto_Open()$/;"	f
+Tlist_Window_Check_Width	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Width()$/;"	f
+Tlist_Window_Close	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Close()$/;"	f
+Tlist_Window_Create	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Create()$/;"	f
+Tlist_Window_Display_Help	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Display_Help()$/;"	f
+Tlist_Window_Exit_Only_Window	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Exit_Only_Window()$/;"	f
+Tlist_Window_Get_File_Index_By_Linenum	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Get_File_Index_By_Linenum(lnum)$/;"	f
+Tlist_Window_Get_Tag_Index	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Index(fidx, lnum)$/;"	f
+Tlist_Window_Get_Tag_Type_By_Linenum	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Type_By_Linenum(fidx, lnum)$/;"	f
+Tlist_Window_Goto_Window	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Goto_Window()$/;"	f
+Tlist_Window_Highlight_Line	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Line()$/;"	f
+Tlist_Window_Highlight_Tag	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Tag(filename, cur_lnum, cntx, center)$/;"	f
+Tlist_Window_Init	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Init()$/;"	f
+Tlist_Window_Jump_To_Tag	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Jump_To_Tag(win_ctrl)$/;"	f
+Tlist_Window_Mark_File_Window	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Mark_File_Window()$/;"	f
+Tlist_Window_Move_To_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Move_To_File(dir)$/;"	f
+Tlist_Window_Open	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Open()$/;"	f
+Tlist_Window_Open_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File(win_ctrl, filename, tagpat)$/;"	f
+Tlist_Window_Open_File_Fold	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File_Fold(acmd_bufnr)$/;"	f
+Tlist_Window_Refresh	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh()$/;"	f
+Tlist_Window_Refresh_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh_File(filename, ftype)$/;"	f
+Tlist_Window_Remove_File_From_Display	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Remove_File_From_Display(fidx)$/;"	f
+Tlist_Window_Show_Info	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Show_Info()$/;"	f
+Tlist_Window_Toggle	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle()$/;"	f
+Tlist_Window_Toggle_Help_Text	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle_Help_Text()$/;"	f
+Tlist_Window_Update_File	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Update_File()$/;"	f
+Tlist_Window_Update_Line_Offsets	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Update_Line_Offsets(start_idx, increment, offset)$/;"	f
+Tlist_Window_Zoom	.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Zoom()$/;"	f
+ToggleExplorer	.vim/plugin/minibufexpl.vim	/^function! <SID>ToggleExplorer()$/;"	f
+TriggerSnippet	.vim/plugin/snipMate.vim	/^fun! TriggerSnippet()$/;"	f
+UMiniBufExplorer	.vim/plugin/minibufexpl.vim	/^  command! UMiniBufExplorer  call <SID>AutoUpdate(-1)$/;"	c
+UpdateChangedSnip	.vim/autoload/snipMate.vim	/^fun s:UpdateChangedSnip(entering)$/;"	f
+UpdatePlaceholderTabStops	.vim/autoload/snipMate.vim	/^fun s:UpdatePlaceholderTabStops()$/;"	f
+UpdateRgbHash	.vim/plugin/CSApprox.vim	/^function! s:UpdateRgbHash()$/;"	f
+UpdateTabStops	.vim/autoload/snipMate.vim	/^fun s:UpdateTabStops()$/;"	f
+UpdateVars	.vim/autoload/snipMate.vim	/^fun s:UpdateVars()$/;"	f
+VIM	.vim/ruby/command-t/vim.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	.vim/ruby/command-t/vim/screen.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	.vim/ruby/command-t/vim/window.rb	/^  module VIM$/;"	m	class:CommandT
+VPATH	.vim/ruby/command-t/Makefile	/^VPATH = $(srcdir):$(topdir):$(hdrdir)$/;"	m
+VimDirListing	.vim/plugin/project.vim	/^    function! s:VimDirListing(filter, padding, separator, filevariable, filecount, dirvariable, dircount)$/;"	f
+Window	.vim/ruby/command-t/vim/window.rb	/^    class Window$/;"	c	class:CommandT.VIM
+WipeAll	.vim/plugin/project.vim	/^    function! s:WipeAll(recurse, line)$/;"	f
+__anon1::abbrev_len	.vim/ruby/command-t/match.c	/^    long    abbrev_len;             \/\/ length of same$/;"	m	struct:__anon1	file:	access:public
+__anon1::abbrev_p	.vim/ruby/command-t/match.c	/^    char    *abbrev_p;              \/\/ pointer to search string (abbreviation)$/;"	m	struct:__anon1	file:	access:public
+__anon1::always_show_dot_files	.vim/ruby/command-t/match.c	/^    int     always_show_dot_files;  \/\/ boolean$/;"	m	struct:__anon1	file:	access:public
+__anon1::dot_file	.vim/ruby/command-t/match.c	/^    int     dot_file;               \/\/ boolean: true if str is a dot-file$/;"	m	struct:__anon1	file:	access:public
+__anon1::max_score_per_char	.vim/ruby/command-t/match.c	/^    double  max_score_per_char;$/;"	m	struct:__anon1	file:	access:public
+__anon1::never_show_dot_files	.vim/ruby/command-t/match.c	/^    int     never_show_dot_files;   \/\/ boolean$/;"	m	struct:__anon1	file:	access:public
+__anon1::str_len	.vim/ruby/command-t/match.c	/^    long    str_len;                \/\/ length of same$/;"	m	struct:__anon1	file:	access:public
+__anon1::str_p	.vim/ruby/command-t/match.c	/^    char    *str_p;                 \/\/ pointer to string to be searched$/;"	m	struct:__anon1	file:	access:public
+abbrev_len	.vim/ruby/command-t/match.c	/^    long    abbrev_len;             \/\/ length of same$/;"	m	struct:__anon1	file:	access:public
+abbrev_p	.vim/ruby/command-t/match.c	/^    char    *abbrev_p;              \/\/ pointer to search string (abbreviation)$/;"	m	struct:__anon1	file:	access:public
+abbrev_segments	.vim/ruby/command-t/prompt.rb	/^    def abbrev_segments$/;"	f	class:CommandT.Prompt
+accept_selection	.vim/ruby/command-t/controller.rb	/^    def accept_selection options = {}$/;"	f	class:CommandT.Controller
+add!	.vim/ruby/command-t/match_window.rb	/^    def add! char$/;"	f	class:CommandT.MatchWindow
+add!	.vim/ruby/command-t/prompt.rb	/^    def add! char$/;"	f	class:CommandT.Prompt
+add_label	.vim/scripts/jslint/fulljslint.js	/^    function add_label(symbol, type) {$/;"	f
+add_paths_for_directory	.vim/ruby/command-t/scanner.rb	/^    def add_paths_for_directory dir, accumulator$/;"	f	class:CommandT.Scanner
+advance	.vim/scripts/jslint/fulljslint.js	/^    function advance(id, match) {$/;"	f
+always_show_dot_files	.vim/ruby/command-t/match.c	/^    int     always_show_dot_files;  \/\/ boolean$/;"	m	struct:__anon1	file:	access:public
+arch	.vim/ruby/command-t/Makefile	/^arch = x86_64-linux$/;"	m
+archdir	.vim/ruby/command-t/Makefile	/^archdir = $(rubylibdir)\/$(arch)$/;"	m
+archflag	.vim/ruby/command-t/Makefile	/^archflag = $/;"	m
+are_similar	.vim/scripts/jslint/fulljslint.js	/^    function are_similar(a, b) {$/;"	f
+assignop	.vim/scripts/jslint/fulljslint.js	/^    function assignop(s, bit) {$/;"	f
+attr_map	.vim/plugin/CSApprox.vim	/^function! s:attr_map(attr)$/;"	f
+b:current_syntax	.vim/syntax/scss.vim	/^let b:current_syntax = "scss"$/;"	v
+b:escape_spaces	.vim/plugin/project.vim	/^                let b:escape_spaces=1$/;"	v
+b:mapped_auto_closetag	.vim/ftplugin/html_autoclosetag.vim	/^let b:mapped_auto_closetag = 1$/;"	v
+backspace	.vim/ruby/command-t/controller.rb	/^    def backspace$/;"	f	class:CommandT.Controller
+backspace!	.vim/ruby/command-t/match_window.rb	/^    def backspace!$/;"	f	class:CommandT.MatchWindow
+backspace!	.vim/ruby/command-t/prompt.rb	/^    def backspace!$/;"	f	class:CommandT.Prompt
+bindir	.vim/ruby/command-t/Makefile	/^bindir = $(exec_prefix)\/bin$/;"	m
+bitwise	.vim/scripts/jslint/fulljslint.js	/^    function bitwise(s, p) {$/;"	f
+blcount	.vim/scripts/jslint/mylintrun.js	/^var blcount = 0;$/;"	v
+block	.vim/scripts/jslint/fulljslint.js	/^    function block(ordinary) {$/;"	f
+body	.vim/scripts/jslint/mylintrun.js	/^var body = "";$/;"	v
+boolOptions.bitwise	.vim/scripts/jslint/mylintrun.js	/^	bitwise    : true, \/\/ if bitwise operators should not be allowed$/;"	p
+boolOptions.browser	.vim/scripts/jslint/mylintrun.js	/^	browser    : true, \/\/ if the standard browser globals should be predefined$/;"	p
+boolOptions.eqeqeq	.vim/scripts/jslint/mylintrun.js	/^	eqeqeq     : true, \/\/ if === should be required$/;"	p
+boolOptions.glovar	.vim/scripts/jslint/mylintrun.js	/^	glovar     : true, \/\/ if HTML fragments should be allowed$/;"	p
+boolOptions.nomen	.vim/scripts/jslint/mylintrun.js	/^	nomen      : true, \/\/ if names should be checked$/;"	p
+boolOptions.plusplus	.vim/scripts/jslint/mylintrun.js	/^	plusplus   : false, \/\/ if increment\/decrement should not be allowed$/;"	p
+boolOptions.regexp	.vim/scripts/jslint/mylintrun.js	/^	regexp     : true, \/\/ if the . should not be allowed in regexp literals$/;"	p
+boolOptions.undef	.vim/scripts/jslint/mylintrun.js	/^	undef      : true, \/\/ if variables should be declared before used$/;"	p
+boolOptions.white	.vim/scripts/jslint/mylintrun.js	/^	white      : false, \/\/ if strict whitespace rules apply$/;"	p
+bufname	.vim/plugin/project.vim	/^        let bufname=escape(substitute(expand('%:p', 0), '\\\\', '\/', 'g'), ' ')$/;"	v
+cCommandTMatch	.vim/ruby/command-t/ext.c	/^VALUE cCommandTMatch    = 0; \/\/ class CommandT::Match$/;"	v
+cCommandTMatcher	.vim/ruby/command-t/ext.c	/^VALUE cCommandTMatcher  = 0; \/\/ class CommandT::Matcher$/;"	v
+c_d	.vim/plugin/project.vim	/^                let c_d=s:GetCd(info, '')$/;"	v
+cancel	.vim/ruby/command-t/controller.rb	/^    def cancel$/;"	f	class:CommandT.Controller
+check_relation	.vim/scripts/jslint/fulljslint.js	/^    function check_relation(node) {$/;"	f
+clear	.vim/ruby/command-t/controller.rb	/^    def clear$/;"	f	class:CommandT.Controller
+clear	.vim/ruby/command-t/match_window.rb	/^    def clear$/;"	f	class:CommandT.MatchWindow
+clear!	.vim/ruby/command-t/prompt.rb	/^    def clear!$/;"	f	class:CommandT.Prompt
+close	.vim/ruby/command-t/match_window.rb	/^    def close$/;"	f	class:CommandT.MatchWindow
+closetag	.vim/scripts/jslint/fulljslint.js	/^    function closetag(name) {$/;"	f
+colors_name	.vim/colors/corn.vim	/^let colors_name = "Corn"$/;"	v
+colors_name	.vim/colors/mustang.vim	/^let colors_name = "mustang"$/;"	v
+colors_name	.vim/colors/vitamins.vim	/^let colors_name = "vitamins"$/;"	v
+colors_name	.vim/colors/wombat.vim	/^let colors_name = "wombat"$/;"	v
+comma	.vim/scripts/jslint/fulljslint.js	/^    function comma() {$/;"	f
+command	.vim/plugin/project.vim	/^                let command=substitute(command, '%F', escape(fnames, '\\'), 'g')$/;"	v
+command	.vim/plugin/project.vim	/^                let command=substitute(command, '%d', escape(c_d, '\\'), 'g')$/;"	v
+command	.vim/plugin/project.vim	/^                let command=substitute(command, '%h', escape(home, '\\'), 'g')$/;"	v
+command	.vim/plugin/project.vim	/^                let command=substitute(command, '%s', escape(fnames, '\\'), 'g')$/;"	v
+command	.vim/plugin/project.vim	/^                let command=substitute(g:proj_run_fold{a:number}, '%f', substitute(escape(fnames, '\\'), '\\\\ ', ' ', 'g'), 'g')$/;"	v
+comp_alpha	.vim/ruby/command-t/matcher.c	/^int comp_alpha(const void *a, const void *b)$/;"	f	signature:(const void *a, const void *b)
+comp_score	.vim/ruby/command-t/matcher.c	/^int comp_score(const void *a, const void *b)$/;"	f	signature:(const void *a, const void *b)
+csapprox#rgb	.vim/autoload/csapprox.vim	/^function! csapprox#rgb()$/;"	f
+css_attr	.vim/scripts/jslint/fulljslint.js	/^    function css_attr() {$/;"	f
+css_attribute_data.background	.vim/scripts/jslint/fulljslint.js	/^        background: [$/;"	p
+css_color	.vim/scripts/jslint/fulljslint.js	/^    function css_color() {$/;"	f
+css_comma_list	.vim/scripts/jslint/fulljslint.js	/^    function css_comma_list() {$/;"	f
+css_counter	.vim/scripts/jslint/fulljslint.js	/^    function css_counter() {$/;"	f
+css_length	.vim/scripts/jslint/fulljslint.js	/^    function css_length() {$/;"	f
+css_line_height	.vim/scripts/jslint/fulljslint.js	/^    function css_line_height() {$/;"	f
+css_margin	.vim/scripts/jslint/fulljslint.js	/^    function css_margin() {$/;"	f
+css_media.all	.vim/scripts/jslint/fulljslint.js	/^        'all': true,$/;"	p
+css_media.braille	.vim/scripts/jslint/fulljslint.js	/^        'braille': true,$/;"	p
+css_media.embossed	.vim/scripts/jslint/fulljslint.js	/^        'embossed': true,$/;"	p
+css_media.handheld	.vim/scripts/jslint/fulljslint.js	/^        'handheld': true,$/;"	p
+css_media.print	.vim/scripts/jslint/fulljslint.js	/^        'print': true,$/;"	p
+css_media.projection	.vim/scripts/jslint/fulljslint.js	/^        'projection': true,$/;"	p
+css_media.screen	.vim/scripts/jslint/fulljslint.js	/^        'screen': true,$/;"	p
+css_media.speech	.vim/scripts/jslint/fulljslint.js	/^        'speech': true,$/;"	p
+css_media.tty	.vim/scripts/jslint/fulljslint.js	/^        'tty': true,$/;"	p
+css_media.tv	.vim/scripts/jslint/fulljslint.js	/^        'tv': true$/;"	p
+css_name	.vim/scripts/jslint/fulljslint.js	/^    function css_name() {$/;"	f
+css_number	.vim/scripts/jslint/fulljslint.js	/^    function css_number() {$/;"	f
+css_shape	.vim/scripts/jslint/fulljslint.js	/^    function css_shape() {$/;"	f
+css_string	.vim/scripts/jslint/fulljslint.js	/^    function css_string() {$/;"	f
+css_url	.vim/scripts/jslint/fulljslint.js	/^    function css_url() {$/;"	f
+css_width	.vim/scripts/jslint/fulljslint.js	/^    function css_width() {$/;"	f
+cursor_end	.vim/ruby/command-t/controller.rb	/^    def cursor_end$/;"	f	class:CommandT.Controller
+cursor_end	.vim/ruby/command-t/prompt.rb	/^    def cursor_end$/;"	f	class:CommandT.Prompt
+cursor_left	.vim/ruby/command-t/controller.rb	/^    def cursor_left$/;"	f	class:CommandT.Controller
+cursor_left	.vim/ruby/command-t/prompt.rb	/^    def cursor_left$/;"	f	class:CommandT.Prompt
+cursor_right	.vim/ruby/command-t/controller.rb	/^    def cursor_right$/;"	f	class:CommandT.Controller
+cursor_right	.vim/ruby/command-t/prompt.rb	/^    def cursor_right$/;"	f	class:CommandT.Prompt
+cursor_start	.vim/ruby/command-t/controller.rb	/^    def cursor_start$/;"	f	class:CommandT.Controller
+cursor_start	.vim/ruby/command-t/prompt.rb	/^    def cursor_start$/;"	f	class:CommandT.Prompt
+datadir	.vim/ruby/command-t/Makefile	/^datadir = $(datarootdir)$/;"	m
+datarootdir	.vim/ruby/command-t/Makefile	/^datarootdir = $(prefix)\/share$/;"	m
+default_open_command	.vim/ruby/command-t/controller.rb	/^    def default_open_command$/;"	f	class:CommandT.Controller
+delete	.vim/ruby/command-t/controller.rb	/^    def delete$/;"	f	class:CommandT.Controller
+delete!	.vim/ruby/command-t/prompt.rb	/^    def delete!$/;"	f	class:CommandT.Prompt
+delim	.vim/scripts/jslint/fulljslint.js	/^    function delim(s) {$/;"	f
+directive	.vim/scripts/jslint/fulljslint.js	/^    function directive() {$/;"	f
+discard	.vim/scripts/jslint/fulljslint.js	/^    function discard(it) {$/;"	f
+dispose	.vim/ruby/command-t/prompt.rb	/^    def dispose$/;"	f	class:CommandT.Prompt
+disrupt_stmt	.vim/scripts/jslint/fulljslint.js	/^    function disrupt_stmt(s, f) {$/;"	f
+dldflags	.vim/ruby/command-t/Makefile	/^dldflags = $/;"	m
+do_attribute	.vim/scripts/jslint/fulljslint.js	/^    function do_attribute(n, a, v) {$/;"	f
+do_begin	.vim/scripts/jslint/fulljslint.js	/^    function do_begin(n) {$/;"	f
+do_function	.vim/scripts/jslint/fulljslint.js	/^    function do_function(func, name) {$/;"	f
+do_tag	.vim/scripts/jslint/fulljslint.js	/^    function do_tag(name, attribute) {$/;"	f
+docdir	.vim/ruby/command-t/Makefile	/^docdir = $(datarootdir)\/doc\/$(PACKAGE)$/;"	m
+dot_file	.vim/ruby/command-t/match.c	/^    int     dot_file;               \/\/ boolean: true if str is a dot-file$/;"	m	struct:__anon1	file:	access:public
+dvidir	.vim/ruby/command-t/Makefile	/^dvidir = $(docdir)$/;"	m
+edge	.vim/scripts/jslint/fulljslint.js	/^    function edge(mode) {$/;"	f
+ensure_appropriate_window_selection	.vim/ruby/command-t/controller.rb	/^    def ensure_appropriate_window_selection$/;"	f	class:CommandT.Controller
+escape_for_single_quotes	.vim/ruby/command-t/vim.rb	/^    def self.escape_for_single_quotes str$/;"	F	class:CommandT.VIM
+exe	.vim/plugin/CSApprox.vim	/^function! s:exe(cmd)$/;"	f
+exec_prefix	.vim/ruby/command-t/Makefile	/^exec_prefix = $(prefix)$/;"	m
+exists?	.vim/ruby/command-t/controller.rb	/^    def exists? name$/;"	f	class:CommandT.Controller
+expected_condition	.vim/scripts/jslint/fulljslint.js	/^    function expected_condition(node, message) {$/;"	f
+expected_relation	.vim/scripts/jslint/fulljslint.js	/^    function expected_relation(node, message) {$/;"	f
+expression	.vim/scripts/jslint/fulljslint.js	/^    function expression(rbp, initial) {$/;"	f
+extout	.vim/ruby/command-t/Makefile	/^extout = $/;"	m
+extout_prefix	.vim/ruby/command-t/Makefile	/^extout_prefix = $/;"	m
+filename	.vim/scripts/jslint/mylintrun.js	/^var filename = arguments[0];$/;"	v
+find	.vim/ruby/command-t/match_window.rb	/^    def find char$/;"	f	class:CommandT.MatchWindow
+flush	.vim/ruby/command-t/controller.rb	/^    def flush$/;"	f	class:CommandT.Controller
+flush	.vim/ruby/command-t/finder.rb	/^    def flush$/;"	f	class:CommandT.Finder
+flush	.vim/ruby/command-t/scanner.rb	/^    def flush$/;"	f	class:CommandT.Scanner
+flush	.vim/ruby/command-t/stub.rb	/^    def flush$/;"	f	class:CommandT.Stub
+fnames	.vim/plugin/project.vim	/^                let fnames=Project_GetAllFnames(a:recurse, line('.'), ' ')$/;"	v
+focus	.vim/ruby/command-t/match_window.rb	/^    def focus$/;"	f	class:CommandT.MatchWindow
+focus	.vim/ruby/command-t/prompt.rb	/^    def focus$/;"	f	class:CommandT.Prompt
+funct.(breakage)	.vim/scripts/jslint/fulljslint.js	/^            '(breakage)': 0,$/;"	p
+funct.(global)	.vim/scripts/jslint/fulljslint.js	/^            '(global)': true,$/;"	p
+funct.(loopage)	.vim/scripts/jslint/fulljslint.js	/^            '(loopage)': 0$/;"	p
+funct.(name)	.vim/scripts/jslint/fulljslint.js	/^            '(name)'     : name || '"' + anonname + '"',$/;"	p
+funct.(name)	.vim/scripts/jslint/fulljslint.js	/^            '(name)': '(global)',$/;"	p
+funct.(scope)	.vim/scripts/jslint/fulljslint.js	/^            '(scope)': scope,$/;"	p
+function_params	.vim/scripts/jslint/fulljslint.js	/^    function function_params() {$/;"	f
+g:CSApprox_loaded	.vim/plugin/CSApprox.vim	/^let g:CSApprox_loaded = 1$/;"	v
+g:ackprg	.vim/plugin/ack.vim	/^	let g:ackprg="ack -H --nocolor --nogroup --column"$/;"	v
+g:colors_name	.vim/colors/darkspectrum.vim	/^let g:colors_name="darkspectrum"$/;"	v
+g:command_t_loaded	.vim/plugin/command-t.vim	/^let g:command_t_loaded = 1$/;"	v
+g:did_ft	.vim/plugin/snipMate.vim	/^let g:did_ft = {}$/;"	v
+g:miniBufExplBufList	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplBufList = ''$/;"	v
+g:miniBufExplDoneClickSave	.vim/plugin/minibufexpl.vim	/^    let  g:miniBufExplDoneClickSave = 1$/;"	v
+g:miniBufExplForceDisplay	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplForceDisplay = 0$/;"	v
+g:miniBufExplForceSyntaxEnable	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplForceSyntaxEnable = 0$/;"	v
+g:miniBufExplInAutoUpdate	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplInAutoUpdate = 0$/;"	v
+g:miniBufExplMapCTabSwitchBufs	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplMapCTabSwitchBufs = 0$/;"	v
+g:miniBufExplMapCTabSwitchWindows	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplMapCTabSwitchWindows = 0$/;"	v
+g:miniBufExplMapWindowNav	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplMapWindowNav = 0$/;"	v
+g:miniBufExplMapWindowNavArrows	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplMapWindowNavArrows = 0$/;"	v
+g:miniBufExplMapWindowNavVim	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplMapWindowNavVim = 0$/;"	v
+g:miniBufExplMaxHeight	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplMaxHeight = 0$/;"	v
+g:miniBufExplMaxSize	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplMaxSize = g:miniBufExplMaxHeight$/;"	v
+g:miniBufExplMinHeight	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplMinHeight = 1$/;"	v
+g:miniBufExplMinSize	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplMinSize = g:miniBufExplMinHeight$/;"	v
+g:miniBufExplModSelTarget	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplModSelTarget = 0$/;"	v
+g:miniBufExplSplitBelow	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplSplitBelow = &splitbelow$/;"	v
+g:miniBufExplSplitToEdge	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplSplitToEdge = 1$/;"	v
+g:miniBufExplTabWrap	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplTabWrap = 0$/;"	v
+g:miniBufExplUseSingleClick	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplUseSingleClick = 0$/;"	v
+g:miniBufExplVSplit	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplVSplit = 0$/;"	v
+g:miniBufExplorerAutoUpdate	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplorerAutoUpdate = 0$/;"	v
+g:miniBufExplorerDebugLevel	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplorerDebugLevel = 0 $/;"	v
+g:miniBufExplorerDebugMode	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplorerDebugMode = 3 $/;"	v
+g:miniBufExplorerDebugOutput	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplorerDebugOutput = ''$/;"	v
+g:miniBufExplorerMoreThanOne	.vim/plugin/minibufexpl.vim	/^  let g:miniBufExplorerMoreThanOne = 2$/;"	v
+g:proj_running	.vim/plugin/project.vim	/^        let g:proj_running = bufnr(bufname.'\\>')$/;"	v
+g:tabular_default_format	.vim/autoload/tabular.vim	/^  let g:tabular_default_format = "l1"$/;"	v
+g:tabular_loaded	.vim/plugin/Tabular.vim	/^let g:tabular_loaded = 1$/;"	v
+get_bool	.vim/ruby/command-t/controller.rb	/^    def get_bool name$/;"	f	class:CommandT.Controller
+get_bool	.vim/ruby/command-t/settings.rb	/^    def get_bool setting$/;"	f	class:CommandT.Settings
+get_cursor_highlight	.vim/ruby/command-t/match_window.rb	/^    def get_cursor_highlight$/;"	f	class:CommandT.MatchWindow
+get_list_or_string	.vim/ruby/command-t/controller.rb	/^    def get_list_or_string name$/;"	f	class:CommandT.Controller
+get_number	.vim/ruby/command-t/controller.rb	/^    def get_number name$/;"	f	class:CommandT.Controller
+get_number	.vim/ruby/command-t/settings.rb	/^    def get_number setting$/;"	f	class:CommandT.Settings
+get_string	.vim/ruby/command-t/controller.rb	/^    def get_string name$/;"	f	class:CommandT.Controller
+handle_key	.vim/ruby/command-t/controller.rb	/^    def handle_key$/;"	f	class:CommandT.Controller
+has_syntax	.vim/ruby/command-t/vim.rb	/^    def self.has_syntax?$/;"	F	class:CommandT.VIM
+hdrdir	.vim/ruby/command-t/Makefile	/^hdrdir = $(topdir)$/;"	m
+help	.vim/plugin/project.vim	/^        cnoremap <buffer> help let g:proj_doinghelp = 1<CR>:help$/;"	m
+hide	.vim/ruby/command-t/controller.rb	/^    def hide$/;"	f	class:CommandT.Controller
+hide_cursor	.vim/ruby/command-t/match_window.rb	/^    def hide_cursor$/;"	f	class:CommandT.MatchWindow
+home	.vim/plugin/project.vim	/^                let home=s:GetHome(info, '')$/;"	v
+html	.vim/scripts/jslint/fulljslint.js	/^    function html() {$/;"	f
+htmldir	.vim/ruby/command-t/Makefile	/^htmldir = $(docdir)$/;"	m
+identifier	.vim/scripts/jslint/fulljslint.js	/^    function identifier() {$/;"	f
+includedir	.vim/ruby/command-t/Makefile	/^includedir = $(prefix)\/include$/;"	m
+indent.at	.vim/scripts/jslint/fulljslint.js	/^                at: (open || mode === 'control' ?$/;"	p
+indent.at	.vim/scripts/jslint/fulljslint.js	/^                at: 1,$/;"	p
+indent.at	.vim/scripts/jslint/fulljslint.js	/^                at: mode,$/;"	p
+indent.mode	.vim/scripts/jslint/fulljslint.js	/^                mode: 'statement',$/;"	p
+indent.open	.vim/scripts/jslint/fulljslint.js	/^                open: true$/;"	p
+indent.open	.vim/scripts/jslint/fulljslint.js	/^                open: true,$/;"	p
+indent.was	.vim/scripts/jslint/fulljslint.js	/^                was: was$/;"	p
+infix	.vim/scripts/jslint/fulljslint.js	/^    function infix(s, p, f, w) {$/;"	f
+info	.vim/plugin/project.vim	/^                let info=s:RecursivelyConstructDirectives(line('.'))$/;"	v
+infodir	.vim/ruby/command-t/Makefile	/^infodir = $(prefix)\/share\/info$/;"	m
+initialize	.vim/ruby/command-t/controller.rb	/^    def initialize$/;"	f	class:CommandT.Controller
+initialize	.vim/ruby/command-t/finder.rb	/^    def initialize path = Dir.pwd, options = {}$/;"	f	class:CommandT.Finder
+initialize	.vim/ruby/command-t/match_window.rb	/^    def initialize options = {}$/;"	f	class:CommandT.MatchWindow
+initialize	.vim/ruby/command-t/prompt.rb	/^    def initialize$/;"	f	class:CommandT.Prompt
+initialize	.vim/ruby/command-t/scanner.rb	/^    def initialize path = Dir.pwd, options = {}$/;"	f	class:CommandT.Scanner
+initialize	.vim/ruby/command-t/settings.rb	/^    def initialize$/;"	f	class:CommandT.Settings
+itself	.vim/scripts/jslint/fulljslint.js	/^    var itself = function (the_source, the_option) {$/;"	f
+itself.data	.vim/scripts/jslint/fulljslint.js	/^    itself.data = function () {$/;"	f
+itself.data.data.functions	.vim/scripts/jslint/fulljslint.js	/^        var data = {functions: []},$/;"	p
+itself.report	.vim/scripts/jslint/fulljslint.js	/^    itself.report = function (errors_only) {$/;"	f
+itself.report.detail	.vim/scripts/jslint/fulljslint.js	/^        function detail(h, array) {$/;"	f
+json_value	.vim/scripts/jslint/fulljslint.js	/^    function json_value() {$/;"	f
+json_value.json_array	.vim/scripts/jslint/fulljslint.js	/^        function json_array() {$/;"	f
+json_value.json_object	.vim/scripts/jslint/fulljslint.js	/^        function json_object() {$/;"	f
+k	.vim/plugin/project.vim	/^            let k=k+1$/;"	v
+k	.vim/plugin/project.vim	/^        let k=1$/;"	v
+labeled_stmt	.vim/scripts/jslint/fulljslint.js	/^    function labeled_stmt(s, f) {$/;"	f
+ldflags	.vim/ruby/command-t/Makefile	/^ldflags  = -L.  -rdynamic -Wl,-export-dynamic$/;"	m
+leave	.vim/ruby/command-t/controller.rb	/^    def leave$/;"	f	class:CommandT.Controller
+leave	.vim/ruby/command-t/match_window.rb	/^    def leave$/;"	f	class:CommandT.MatchWindow
+libdir	.vim/ruby/command-t/Makefile	/^libdir = $(exec_prefix)\/lib$/;"	m
+libexecdir	.vim/ruby/command-t/Makefile	/^libexecdir = $(prefix)\/lib\/ruby1.8$/;"	m
+libpath	.vim/ruby/command-t/Makefile	/^libpath = . $(libdir)$/;"	m
+line	.vim/scripts/jslint/mylintrun.js	/^var line;$/;"	v
+lines	.vim/ruby/command-t/vim/screen.rb	/^      def self.lines$/;"	F	class:CommandT.VIM.Screen
+list_matches	.vim/ruby/command-t/controller.rb	/^    def list_matches$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+loaded_minibufexplorer	.vim/plugin/minibufexpl.vim	/^let loaded_minibufexplorer = 1$/;"	v
+loaded_project	.vim/plugin/project.vim	/^let loaded_project=1$/;"	v
+loaded_snips	.vim/plugin/snipMate.vim	/^let loaded_snips = 1$/;"	v
+loaded_taglist	.vim/plugin/taglist.vim	/^            let loaded_taglist = 'no'$/;"	v
+loaded_taglist	.vim/plugin/taglist.vim	/^        let loaded_taglist = 'no'$/;"	v
+loaded_taglist	.vim/plugin/taglist.vim	/^    let loaded_taglist = 'fast_load_done'$/;"	v
+loaded_taglist	.vim/plugin/taglist.vim	/^let loaded_taglist = 'available'$/;"	v
+localedir	.vim/ruby/command-t/Makefile	/^localedir = $(datarootdir)\/locale$/;"	m
+localstatedir	.vim/ruby/command-t/Makefile	/^localstatedir = $(DESTDIR)\/var$/;"	m
+lock	.vim/ruby/command-t/match_window.rb	/^    def lock$/;"	f	class:CommandT.MatchWindow
+mCommandT	.vim/ruby/command-t/ext.c	/^VALUE mCommandT         = 0; \/\/ module CommandT$/;"	v
+mandir	.vim/ruby/command-t/Makefile	/^mandir = $(prefix)\/share\/man$/;"	m
+map	.vim/ruby/command-t/controller.rb	/^    def map key, function, param = nil$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+match_limit	.vim/ruby/command-t/controller.rb	/^    def match_limit$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+match_text_for_idx	.vim/ruby/command-t/match_window.rb	/^    def match_text_for_idx idx$/;"	f	class:CommandT.MatchWindow
+matches=	.vim/ruby/command-t/match_window.rb	/^    def matches= matches$/;"	f	class:CommandT.MatchWindow
+matchinfo_t	.vim/ruby/command-t/match.c	/^} matchinfo_t;$/;"	t	typeref:struct:__anon1	file:
+max_score_per_char	.vim/ruby/command-t/match.c	/^    double  max_score_per_char;$/;"	m	struct:__anon1	file:	access:public
+missing	.vim/ruby/command-t/extconf.rb	/^def missing item$/;"	f
+never_show_dot_files	.vim/ruby/command-t/match.c	/^    int     never_show_dot_files;   \/\/ boolean$/;"	m	struct:__anon1	file:	access:public
+no_space	.vim/scripts/jslint/fulljslint.js	/^    function no_space(left, right) {$/;"	f
+no_space_only	.vim/scripts/jslint/fulljslint.js	/^    function no_space_only(left, right) {$/;"	f
+note_implied	.vim/scripts/jslint/fulljslint.js	/^    function note_implied(token) {$/;"	f
+oldincludedir	.vim/ruby/command-t/Makefile	/^oldincludedir = $(DESTDIR)\/usr\/include$/;"	m
+one_space	.vim/scripts/jslint/fulljslint.js	/^    function one_space(left, right) {$/;"	f
+one_space_only	.vim/scripts/jslint/fulljslint.js	/^    function one_space_only(left, right) {$/;"	f
+open_selection	.vim/ruby/command-t/controller.rb	/^    def open_selection selection, options = {}$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+optional_identifier	.vim/scripts/jslint/fulljslint.js	/^    function optional_identifier() {$/;"	f
+padding_for_selected_match	.vim/ruby/command-t/match_window.rb	/^    def padding_for_selected_match str$/;"	f	class:CommandT.MatchWindow
+path=	.vim/ruby/command-t/finder.rb	/^    def path= path$/;"	f	class:CommandT.Finder
+path=	.vim/ruby/command-t/scanner.rb	/^    def path= str$/;"	f	class:CommandT.Scanner
+path_excluded?	.vim/ruby/command-t/scanner.rb	/^    def path_excluded? path$/;"	f	class:CommandT.Scanner
+paths	.vim/ruby/command-t/scanner.rb	/^    def paths$/;"	f	class:CommandT.Scanner
+pdfdir	.vim/ruby/command-t/Makefile	/^pdfdir = $(docdir)$/;"	m
+peek	.vim/scripts/jslint/fulljslint.js	/^    function peek(distance) {$/;"	f
+postscript	.vim/scripts/jslint/fulljslint.js	/^    function postscript(x) {$/;"	f
+prefix	.vim/ruby/command-t/Makefile	/^prefix = $(DESTDIR)\/usr$/;"	m
+prefix	.vim/scripts/jslint/fulljslint.js	/^    function prefix(s, f) {$/;"	f
+preload	.vim/ruby/command-t/Makefile	/^preload = $/;"	m
+print_error	.vim/ruby/command-t/match_window.rb	/^    def print_error msg$/;"	f	class:CommandT.MatchWindow
+print_match	.vim/ruby/command-t/match_window.rb	/^    def print_match idx$/;"	f	class:CommandT.MatchWindow
+print_matches	.vim/ruby/command-t/match_window.rb	/^    def print_matches$/;"	f	class:CommandT.MatchWindow
+print_no_such_file_or_directory	.vim/ruby/command-t/match_window.rb	/^    def print_no_such_file_or_directory$/;"	f	class:CommandT.MatchWindow
+property_name	.vim/scripts/jslint/fulljslint.js	/^    function property_name() {$/;"	f
+psdir	.vim/ruby/command-t/Makefile	/^psdir = $(docdir)$/;"	m
+pwd	.vim/ruby/command-t/vim.rb	/^    def self.pwd$/;"	F	class:CommandT.VIM
+recursive_match	.vim/ruby/command-t/match.c	/^double recursive_match(matchinfo_t *m,  \/\/ sharable meta-data$/;"	f	signature:(matchinfo_t *m, long str_idx, long abbrev_idx, long last_idx, double score)
+redraw	.vim/ruby/command-t/prompt.rb	/^    def redraw$/;"	f	class:CommandT.Prompt
+register_for_key_presses	.vim/ruby/command-t/controller.rb	/^    def register_for_key_presses$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+relation	.vim/scripts/jslint/fulljslint.js	/^    function relation(s, eqeq) {$/;"	f
+relative_path_under_working_directory	.vim/ruby/command-t/controller.rb	/^    def relative_path_under_working_directory path$/;"	f	class:CommandT.Controller
+reserve	.vim/scripts/jslint/fulljslint.js	/^    function reserve(s, f) {$/;"	f
+reserve_name	.vim/scripts/jslint/fulljslint.js	/^    function reserve_name(x) {$/;"	f
+reservevar	.vim/scripts/jslint/fulljslint.js	/^    function reservevar(s, v) {$/;"	f
+restore	.vim/ruby/command-t/settings.rb	/^    def restore$/;"	f	class:CommandT.Settings
+restore_window_dimensions	.vim/ruby/command-t/match_window.rb	/^    def restore_window_dimensions$/;"	f	class:CommandT.MatchWindow
+result	.vim/scripts/jslint/mylintrun.js	/^var result = JSLINT(body, boolOptions);$/;"	v
+retval	.vim/plugin/project.vim	/^        let retval=b:fnamelist$/;"	v
+ruby	.vim/ruby/command-t/Makefile	/^ruby = \/usr\/bin\/ruby1.8$/;"	m
+ruby_inspect	.vim/ruby/command-t/ext.h	36;"	d
+ruby_version	.vim/ruby/command-t/Makefile	/^ruby_version = 1.8$/;"	m
+rubylibdir	.vim/ruby/command-t/Makefile	/^rubylibdir = $(libdir)\/ruby\/$(ruby_version)$/;"	m
+s:TabularCommands	.vim/plugin/Tabular.vim	/^let s:TabularCommands = {}$/;"	v
+s:Tlist_Skip_Refresh	.vim/plugin/taglist.vim	/^let s:Tlist_Skip_Refresh = 0$/;"	v
+s:clickmap	.vim/plugin/minibufexpl.vim	/^  let s:clickmap = ':if bufname("%") == "-MiniBufExplorer-" <bar> call <SID>MBEClick() <bar> endif <CR>'$/;"	v
+s:cpo_save	.vim/plugin/taglist.vim	/^let s:cpo_save = &cpo$/;"	v
+s:debugIndex	.vim/plugin/minibufexpl.vim	/^let s:debugIndex = 0 $/;"	v
+s:did_auto_closetag	.vim/ftplugin/html_autoclosetag.vim	/^let s:did_auto_closetag = 1$/;"	v
+s:did_snip_helper	.vim/ftplugin/html_snip_helper.vim	/^let s:did_snip_helper = 1$/;"	v
+s:did_snips_mappings	.vim/after/plugin/snipMate.vim	/^let s:did_snips_mappings = 1$/;"	v
+s:eterm_colors	.vim/plugin/CSApprox.vim	/^let s:eterm_colors   = [ 0x00, 0x2A, 0x55, 0x7F, 0xAA, 0xD4 ]$/;"	v
+s:formatelempat	.vim/autoload/tabular.vim	/^let s:formatelempat = '\\%([lrc]\\d\\+\\)'$/;"	v
+s:hlid_normal	.vim/plugin/CSApprox.vim	/^let s:hlid_normal = hlID('Normal')$/;"	v
+s:konsole_colors	.vim/plugin/CSApprox.vim	/^let s:konsole_colors = [ 0x00, 0x33, 0x66, 0x99, 0xCC, 0xFF ]$/;"	v
+s:m	.vim/plugin/minibufexpl.vim	/^    let  s:m = ':nnoremap <silent> <LEFTMOUSE> <LEFTMOUSE>'$/;"	v
+s:m	.vim/plugin/minibufexpl.vim	/^    let  s:m = s:m . s:clickmap$/;"	v
+s:m	.vim/plugin/minibufexpl.vim	/^    let  s:m = s:m . substitute(substitute(maparg('<LEFTMOUSE>', 'n'), '|', '<bar>', 'g'), '\\c^<LEFTMOUSE>', '', '')$/;"	v
+s:maxTabWidth	.vim/plugin/minibufexpl.vim	/^let s:maxTabWidth = 0 $/;"	v
+s:menu_char_prefix	.vim/plugin/taglist.vim	/^let s:menu_char_prefix =$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256  = []$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [ 81] " LightBlue$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [121] " LightGreen$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [130] " Brown$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [130] " DarkYellow$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [159] " LightCyan$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [224] " LightRed$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [225] " LightMagenta$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [229] " LightYellow$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [242] " DarkGray$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [242] " DarkGrey$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [248] " Gray$/;"	v
+s:presets_256	.vim/plugin/CSApprox.vim	/^let s:presets_256 += [248] " Grey$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88  = []$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [32] " Brown$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [43] " LightBlue$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [61] " LightGreen$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [63] " LightCyan$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [72] " DarkYellow$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [74] " LightRed$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [75] " LightMagenta$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [78] " LightYellow$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [82] " DarkGray$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [82] " DarkGrey$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [84] " Gray$/;"	v
+s:presets_88	.vim/plugin/CSApprox.vim	/^let s:presets_88 += [84] " Grey$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["blue"]          = "0x0000d4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["brown"]         = "0x804040"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["cyan"]          = "0x02abea"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["dark blue"]     = "0x000080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["dark cyan"]     = "0x008080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["dark gray"]     = "0x808080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["dark green"]    = "0x008000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["dark grey"]     = "0x808080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["dark magenta"]  = "0x800080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["dark red"]      = "0x800000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["darkblue"]      = "0x000080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["darkcyan"]      = "0x008080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["darkgray"]      = "0x808080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["darkgreen"]     = "0x008000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["darkgrey"]      = "0x808080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["darkmagenta"]   = "0x800080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["darkred"]       = "0x800000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["gray"]          = "0xc0c0c0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["green"]         = "0x006411"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["grey"]          = "0xc0c0c0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["light blue"]    = "0xa0a0ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["light cyan"]    = "0xa0ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["light gray"]    = "0xe0e0e0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["light green"]   = "0xa0ffa0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["light grey"]    = "0xe0e0e0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["light magenta"] = "0xf0a0f0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["light red"]     = "0xffa0a0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["light yellow"]  = "0xffffa0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["lightblue"]     = "0xa0a0ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["lightcyan"]     = "0xa0ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["lightgray"]     = "0xe0e0e0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["lightgreen"]    = "0xa0ffa0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["lightgrey"]     = "0xe0e0e0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["lightmagenta"]  = "0xf0a0f0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["lightred"]      = "0xffa0a0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["lightyellow"]   = "0xffffa0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["magenta"]       = "0xf20884"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["orange"]        = "0xfc8000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["purple"]        = "0xa020f0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["red"]           = "0xdd0806"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["slateblue"]     = "0x6a5acd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["violet"]        = "0x8d38c9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^  let s:rgb["yellow"]        = "0xfcf305"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb = {}$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["alice blue"]             = "#f0f8ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["aliceblue"]              = "#f0f8ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["antique white"]          = "#faebd7"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["antiquewhite"]           = "#faebd7"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["antiquewhite1"]          = "#ffefdb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["antiquewhite2"]          = "#eedfcc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["antiquewhite3"]          = "#cdc0b0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["antiquewhite4"]          = "#8b8378"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["aquamarine"]             = "#7fffd4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["aquamarine1"]            = "#7fffd4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["aquamarine2"]            = "#76eec6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["aquamarine3"]            = "#66cdaa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["aquamarine4"]            = "#458b74"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["azure"]                  = "#f0ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["azure1"]                 = "#f0ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["azure2"]                 = "#e0eeee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["azure3"]                 = "#c1cdcd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["azure4"]                 = "#838b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["beige"]                  = "#f5f5dc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["bisque"]                 = "#ffe4c4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["bisque1"]                = "#ffe4c4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["bisque2"]                = "#eed5b7"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["bisque3"]                = "#cdb79e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["bisque4"]                = "#8b7d6b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["black"]                  = "#000000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["blanched almond"]        = "#ffebcd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["blanchedalmond"]         = "#ffebcd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["blue violet"]            = "#8a2be2"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["blue"]                   = "#0000ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["blue1"]                  = "#0000ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["blue2"]                  = "#0000ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["blue3"]                  = "#0000cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["blue4"]                  = "#00008b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["blueviolet"]             = "#8a2be2"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["brown"]                  = "#a52a2a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["brown1"]                 = "#ff4040"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["brown2"]                 = "#ee3b3b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["brown3"]                 = "#cd3333"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["brown4"]                 = "#8b2323"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["burlywood"]              = "#deb887"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["burlywood1"]             = "#ffd39b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["burlywood2"]             = "#eec591"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["burlywood3"]             = "#cdaa7d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["burlywood4"]             = "#8b7355"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cadet blue"]             = "#5f9ea0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cadetblue"]              = "#5f9ea0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cadetblue1"]             = "#98f5ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cadetblue2"]             = "#8ee5ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cadetblue3"]             = "#7ac5cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cadetblue4"]             = "#53868b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chartreuse"]             = "#7fff00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chartreuse1"]            = "#7fff00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chartreuse2"]            = "#76ee00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chartreuse3"]            = "#66cd00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chartreuse4"]            = "#458b00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chocolate"]              = "#d2691e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chocolate1"]             = "#ff7f24"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chocolate2"]             = "#ee7621"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chocolate3"]             = "#cd661d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["chocolate4"]             = "#8b4513"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["coral"]                  = "#ff7f50"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["coral1"]                 = "#ff7256"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["coral2"]                 = "#ee6a50"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["coral3"]                 = "#cd5b45"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["coral4"]                 = "#8b3e2f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cornflower blue"]        = "#6495ed"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cornflowerblue"]         = "#6495ed"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cornsilk"]               = "#fff8dc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cornsilk1"]              = "#fff8dc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cornsilk2"]              = "#eee8cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cornsilk3"]              = "#cdc8b1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cornsilk4"]              = "#8b8878"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cyan"]                   = "#00ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cyan1"]                  = "#00ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cyan2"]                  = "#00eeee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cyan3"]                  = "#00cdcd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["cyan4"]                  = "#008b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark blue"]              = "#00008b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark cyan"]              = "#008b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark goldenrod"]         = "#b8860b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark gray"]              = "#a9a9a9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark green"]             = "#006400"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark grey"]              = "#a9a9a9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark khaki"]             = "#bdb76b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark magenta"]           = "#8b008b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark olive green"]       = "#556b2f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark orange"]            = "#ff8c00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark orchid"]            = "#9932cc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark red"]               = "#8b0000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark salmon"]            = "#e9967a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark sea green"]         = "#8fbc8f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark slate blue"]        = "#483d8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark slate gray"]        = "#2f4f4f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark slate grey"]        = "#2f4f4f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark turquoise"]         = "#00ced1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark violet"]            = "#9400d3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dark yellow"]            = "#bbbb00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkblue"]               = "#00008b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkcyan"]               = "#008b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkgoldenrod"]          = "#b8860b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkgoldenrod1"]         = "#ffb90f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkgoldenrod2"]         = "#eead0e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkgoldenrod3"]         = "#cd950c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkgoldenrod4"]         = "#8b6508"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkgray"]               = "#a9a9a9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkgreen"]              = "#006400"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkgrey"]               = "#a9a9a9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkkhaki"]              = "#bdb76b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkmagenta"]            = "#8b008b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkolivegreen"]         = "#556b2f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkolivegreen1"]        = "#caff70"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkolivegreen2"]        = "#bcee68"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkolivegreen3"]        = "#a2cd5a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkolivegreen4"]        = "#6e8b3d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorange"]             = "#ff8c00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorange1"]            = "#ff7f00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorange2"]            = "#ee7600"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorange3"]            = "#cd6600"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorange4"]            = "#8b4500"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorchid"]             = "#9932cc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorchid1"]            = "#bf3eff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorchid2"]            = "#b23aee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorchid3"]            = "#9a32cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkorchid4"]            = "#68228b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkred"]                = "#8b0000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darksalmon"]             = "#e9967a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkseagreen"]           = "#8fbc8f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkseagreen1"]          = "#c1ffc1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkseagreen2"]          = "#b4eeb4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkseagreen3"]          = "#9bcd9b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkseagreen4"]          = "#698b69"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkslateblue"]          = "#483d8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkslategray"]          = "#2f4f4f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkslategray1"]         = "#97ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkslategray2"]         = "#8deeee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkslategray3"]         = "#79cdcd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkslategray4"]         = "#528b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkslategrey"]          = "#2f4f4f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkturquoise"]          = "#00ced1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkviolet"]             = "#9400d3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["darkyellow"]             = "#bbbb00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deep pink"]              = "#ff1493"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deep sky blue"]          = "#00bfff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deeppink"]               = "#ff1493"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deeppink1"]              = "#ff1493"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deeppink2"]              = "#ee1289"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deeppink3"]              = "#cd1076"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deeppink4"]              = "#8b0a50"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deepskyblue"]            = "#00bfff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deepskyblue1"]           = "#00bfff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deepskyblue2"]           = "#00b2ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deepskyblue3"]           = "#009acd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["deepskyblue4"]           = "#00688b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dim gray"]               = "#696969"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dim grey"]               = "#696969"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dimgray"]                = "#696969"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dimgrey"]                = "#696969"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dodger blue"]            = "#1e90ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dodgerblue"]             = "#1e90ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dodgerblue1"]            = "#1e90ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dodgerblue2"]            = "#1c86ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dodgerblue3"]            = "#1874cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["dodgerblue4"]            = "#104e8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["firebrick"]              = "#b22222"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["firebrick1"]             = "#ff3030"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["firebrick2"]             = "#ee2c2c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["firebrick3"]             = "#cd2626"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["firebrick4"]             = "#8b1a1a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["floral white"]           = "#fffaf0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["floralwhite"]            = "#fffaf0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["forest green"]           = "#228b22"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["forestgreen"]            = "#228b22"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gainsboro"]              = "#dcdcdc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["ghost white"]            = "#f8f8ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["ghostwhite"]             = "#f8f8ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gold"]                   = "#ffd700"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gold1"]                  = "#ffd700"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gold2"]                  = "#eec900"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gold3"]                  = "#cdad00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gold4"]                  = "#8b7500"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["goldenrod"]              = "#daa520"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["goldenrod1"]             = "#ffc125"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["goldenrod2"]             = "#eeb422"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["goldenrod3"]             = "#cd9b1d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["goldenrod4"]             = "#8b6914"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray"]                   = "#bebebe"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray0"]                  = "#000000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray1"]                  = "#030303"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray10"]                 = "#1a1a1a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray100"]                = "#ffffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray11"]                 = "#1c1c1c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray12"]                 = "#1f1f1f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray13"]                 = "#212121"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray14"]                 = "#242424"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray15"]                 = "#262626"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray16"]                 = "#292929"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray17"]                 = "#2b2b2b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray18"]                 = "#2e2e2e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray19"]                 = "#303030"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray2"]                  = "#050505"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray20"]                 = "#333333"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray21"]                 = "#363636"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray22"]                 = "#383838"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray23"]                 = "#3b3b3b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray24"]                 = "#3d3d3d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray25"]                 = "#404040"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray26"]                 = "#424242"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray27"]                 = "#454545"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray28"]                 = "#474747"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray29"]                 = "#4a4a4a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray3"]                  = "#080808"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray30"]                 = "#4d4d4d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray31"]                 = "#4f4f4f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray32"]                 = "#525252"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray33"]                 = "#545454"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray34"]                 = "#575757"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray35"]                 = "#595959"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray36"]                 = "#5c5c5c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray37"]                 = "#5e5e5e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray38"]                 = "#616161"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray39"]                 = "#636363"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray4"]                  = "#0a0a0a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray40"]                 = "#666666"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray41"]                 = "#696969"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray42"]                 = "#6b6b6b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray43"]                 = "#6e6e6e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray44"]                 = "#707070"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray45"]                 = "#737373"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray46"]                 = "#757575"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray47"]                 = "#787878"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray48"]                 = "#7a7a7a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray49"]                 = "#7d7d7d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray5"]                  = "#0d0d0d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray50"]                 = "#7f7f7f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray51"]                 = "#828282"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray52"]                 = "#858585"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray53"]                 = "#878787"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray54"]                 = "#8a8a8a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray55"]                 = "#8c8c8c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray56"]                 = "#8f8f8f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray57"]                 = "#919191"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray58"]                 = "#949494"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray59"]                 = "#969696"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray6"]                  = "#0f0f0f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray60"]                 = "#999999"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray61"]                 = "#9c9c9c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray62"]                 = "#9e9e9e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray63"]                 = "#a1a1a1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray64"]                 = "#a3a3a3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray65"]                 = "#a6a6a6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray66"]                 = "#a8a8a8"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray67"]                 = "#ababab"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray68"]                 = "#adadad"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray69"]                 = "#b0b0b0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray7"]                  = "#121212"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray70"]                 = "#b3b3b3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray71"]                 = "#b5b5b5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray72"]                 = "#b8b8b8"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray73"]                 = "#bababa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray74"]                 = "#bdbdbd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray75"]                 = "#bfbfbf"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray76"]                 = "#c2c2c2"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray77"]                 = "#c4c4c4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray78"]                 = "#c7c7c7"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray79"]                 = "#c9c9c9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray8"]                  = "#141414"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray80"]                 = "#cccccc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray81"]                 = "#cfcfcf"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray82"]                 = "#d1d1d1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray83"]                 = "#d4d4d4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray84"]                 = "#d6d6d6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray85"]                 = "#d9d9d9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray86"]                 = "#dbdbdb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray87"]                 = "#dedede"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray88"]                 = "#e0e0e0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray89"]                 = "#e3e3e3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray9"]                  = "#171717"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray90"]                 = "#e5e5e5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray91"]                 = "#e8e8e8"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray92"]                 = "#ebebeb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray93"]                 = "#ededed"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray94"]                 = "#f0f0f0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray95"]                 = "#f2f2f2"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray96"]                 = "#f5f5f5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray97"]                 = "#f7f7f7"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray98"]                 = "#fafafa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["gray99"]                 = "#fcfcfc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["green yellow"]           = "#adff2f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["green"]                  = "#00ff00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["green1"]                 = "#00ff00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["green2"]                 = "#00ee00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["green3"]                 = "#00cd00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["green4"]                 = "#008b00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["greenyellow"]            = "#adff2f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey"]                   = "#bebebe"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey0"]                  = "#000000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey1"]                  = "#030303"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey10"]                 = "#1a1a1a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey100"]                = "#ffffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey11"]                 = "#1c1c1c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey12"]                 = "#1f1f1f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey13"]                 = "#212121"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey14"]                 = "#242424"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey15"]                 = "#262626"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey16"]                 = "#292929"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey17"]                 = "#2b2b2b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey18"]                 = "#2e2e2e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey19"]                 = "#303030"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey2"]                  = "#050505"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey20"]                 = "#333333"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey21"]                 = "#363636"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey22"]                 = "#383838"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey23"]                 = "#3b3b3b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey24"]                 = "#3d3d3d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey25"]                 = "#404040"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey26"]                 = "#424242"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey27"]                 = "#454545"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey28"]                 = "#474747"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey29"]                 = "#4a4a4a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey3"]                  = "#080808"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey30"]                 = "#4d4d4d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey31"]                 = "#4f4f4f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey32"]                 = "#525252"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey33"]                 = "#545454"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey34"]                 = "#575757"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey35"]                 = "#595959"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey36"]                 = "#5c5c5c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey37"]                 = "#5e5e5e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey38"]                 = "#616161"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey39"]                 = "#636363"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey4"]                  = "#0a0a0a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey40"]                 = "#666666"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey41"]                 = "#696969"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey42"]                 = "#6b6b6b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey43"]                 = "#6e6e6e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey44"]                 = "#707070"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey45"]                 = "#737373"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey46"]                 = "#757575"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey47"]                 = "#787878"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey48"]                 = "#7a7a7a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey49"]                 = "#7d7d7d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey5"]                  = "#0d0d0d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey50"]                 = "#7f7f7f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey51"]                 = "#828282"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey52"]                 = "#858585"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey53"]                 = "#878787"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey54"]                 = "#8a8a8a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey55"]                 = "#8c8c8c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey56"]                 = "#8f8f8f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey57"]                 = "#919191"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey58"]                 = "#949494"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey59"]                 = "#969696"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey6"]                  = "#0f0f0f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey60"]                 = "#999999"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey61"]                 = "#9c9c9c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey62"]                 = "#9e9e9e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey63"]                 = "#a1a1a1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey64"]                 = "#a3a3a3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey65"]                 = "#a6a6a6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey66"]                 = "#a8a8a8"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey67"]                 = "#ababab"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey68"]                 = "#adadad"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey69"]                 = "#b0b0b0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey7"]                  = "#121212"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey70"]                 = "#b3b3b3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey71"]                 = "#b5b5b5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey72"]                 = "#b8b8b8"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey73"]                 = "#bababa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey74"]                 = "#bdbdbd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey75"]                 = "#bfbfbf"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey76"]                 = "#c2c2c2"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey77"]                 = "#c4c4c4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey78"]                 = "#c7c7c7"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey79"]                 = "#c9c9c9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey8"]                  = "#141414"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey80"]                 = "#cccccc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey81"]                 = "#cfcfcf"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey82"]                 = "#d1d1d1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey83"]                 = "#d4d4d4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey84"]                 = "#d6d6d6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey85"]                 = "#d9d9d9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey86"]                 = "#dbdbdb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey87"]                 = "#dedede"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey88"]                 = "#e0e0e0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey89"]                 = "#e3e3e3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey9"]                  = "#171717"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey90"]                 = "#e5e5e5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey91"]                 = "#e8e8e8"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey92"]                 = "#ebebeb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey93"]                 = "#ededed"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey94"]                 = "#f0f0f0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey95"]                 = "#f2f2f2"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey96"]                 = "#f5f5f5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey97"]                 = "#f7f7f7"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey98"]                 = "#fafafa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["grey99"]                 = "#fcfcfc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["honeydew"]               = "#f0fff0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["honeydew1"]              = "#f0fff0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["honeydew2"]              = "#e0eee0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["honeydew3"]              = "#c1cdc1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["honeydew4"]              = "#838b83"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["hot pink"]               = "#ff69b4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["hotpink"]                = "#ff69b4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["hotpink1"]               = "#ff6eb4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["hotpink2"]               = "#ee6aa7"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["hotpink3"]               = "#cd6090"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["hotpink4"]               = "#8b3a62"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["indian red"]             = "#cd5c5c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["indianred"]              = "#cd5c5c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["indianred1"]             = "#ff6a6a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["indianred2"]             = "#ee6363"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["indianred3"]             = "#cd5555"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["indianred4"]             = "#8b3a3a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["ivory"]                  = "#fffff0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["ivory1"]                 = "#fffff0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["ivory2"]                 = "#eeeee0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["ivory3"]                 = "#cdcdc1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["ivory4"]                 = "#8b8b83"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["khaki"]                  = "#f0e68c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["khaki1"]                 = "#fff68f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["khaki2"]                 = "#eee685"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["khaki3"]                 = "#cdc673"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["khaki4"]                 = "#8b864e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lavender blush"]         = "#fff0f5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lavender"]               = "#e6e6fa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lavenderblush"]          = "#fff0f5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lavenderblush1"]         = "#fff0f5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lavenderblush2"]         = "#eee0e5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lavenderblush3"]         = "#cdc1c5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lavenderblush4"]         = "#8b8386"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lawn green"]             = "#7cfc00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lawngreen"]              = "#7cfc00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lemon chiffon"]          = "#fffacd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lemonchiffon"]           = "#fffacd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lemonchiffon1"]          = "#fffacd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lemonchiffon2"]          = "#eee9bf"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lemonchiffon3"]          = "#cdc9a5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lemonchiffon4"]          = "#8b8970"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light blue"]             = "#add8e6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light coral"]            = "#f08080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light cyan"]             = "#e0ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light goldenrod yellow"] = "#fafad2"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light goldenrod"]        = "#eedd82"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light gray"]             = "#d3d3d3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light green"]            = "#90ee90"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light grey"]             = "#d3d3d3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light magenta"]          = "#ffbbff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light pink"]             = "#ffb6c1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light red"]              = "#ffbbbb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light salmon"]           = "#ffa07a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light sea green"]        = "#20b2aa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light sky blue"]         = "#87cefa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light slate blue"]       = "#8470ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light slate gray"]       = "#778899"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light slate grey"]       = "#778899"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light steel blue"]       = "#b0c4de"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["light yellow"]           = "#ffffe0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightblue"]              = "#add8e6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightblue1"]             = "#bfefff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightblue2"]             = "#b2dfee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightblue3"]             = "#9ac0cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightblue4"]             = "#68838b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightcoral"]             = "#f08080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightcyan"]              = "#e0ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightcyan1"]             = "#e0ffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightcyan2"]             = "#d1eeee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightcyan3"]             = "#b4cdcd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightcyan4"]             = "#7a8b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightgoldenrod"]         = "#eedd82"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightgoldenrod1"]        = "#ffec8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightgoldenrod2"]        = "#eedc82"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightgoldenrod3"]        = "#cdbe70"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightgoldenrod4"]        = "#8b814c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightgoldenrodyellow"]   = "#fafad2"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightgray"]              = "#d3d3d3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightgreen"]             = "#90ee90"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightgrey"]              = "#d3d3d3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightmagenta"]           = "#ffbbff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightpink"]              = "#ffb6c1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightpink1"]             = "#ffaeb9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightpink2"]             = "#eea2ad"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightpink3"]             = "#cd8c95"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightpink4"]             = "#8b5f65"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightred"]               = "#ffbbbb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsalmon"]            = "#ffa07a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsalmon1"]           = "#ffa07a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsalmon2"]           = "#ee9572"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsalmon3"]           = "#cd8162"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsalmon4"]           = "#8b5742"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightseagreen"]          = "#20b2aa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightskyblue"]           = "#87cefa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightskyblue1"]          = "#b0e2ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightskyblue2"]          = "#a4d3ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightskyblue3"]          = "#8db6cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightskyblue4"]          = "#607b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightslateblue"]         = "#8470ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightslategray"]         = "#778899"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightslategrey"]         = "#778899"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsteelblue"]         = "#b0c4de"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsteelblue1"]        = "#cae1ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsteelblue2"]        = "#bcd2ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsteelblue3"]        = "#a2b5cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightsteelblue4"]        = "#6e7b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightyellow"]            = "#ffffe0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightyellow1"]           = "#ffffe0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightyellow2"]           = "#eeeed1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightyellow3"]           = "#cdcdb4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lightyellow4"]           = "#8b8b7a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["lime green"]             = "#32cd32"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["limegreen"]              = "#32cd32"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["linen"]                  = "#faf0e6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["magenta"]                = "#ff00ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["magenta1"]               = "#ff00ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["magenta2"]               = "#ee00ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["magenta3"]               = "#cd00cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["magenta4"]               = "#8b008b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["maroon"]                 = "#b03060"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["maroon1"]                = "#ff34b3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["maroon2"]                = "#ee30a7"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["maroon3"]                = "#cd2990"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["maroon4"]                = "#8b1c62"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["medium aquamarine"]      = "#66cdaa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["medium blue"]            = "#0000cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["medium orchid"]          = "#ba55d3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["medium purple"]          = "#9370db"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["medium sea green"]       = "#3cb371"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["medium slate blue"]      = "#7b68ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["medium spring green"]    = "#00fa9a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["medium turquoise"]       = "#48d1cc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["medium violet red"]      = "#c71585"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumaquamarine"]       = "#66cdaa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumblue"]             = "#0000cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumorchid"]           = "#ba55d3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumorchid1"]          = "#e066ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumorchid2"]          = "#d15fee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumorchid3"]          = "#b452cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumorchid4"]          = "#7a378b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumpurple"]           = "#9370db"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumpurple1"]          = "#ab82ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumpurple2"]          = "#9f79ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumpurple3"]          = "#8968cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumpurple4"]          = "#5d478b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumseagreen"]         = "#3cb371"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumslateblue"]        = "#7b68ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumspringgreen"]      = "#00fa9a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumturquoise"]        = "#48d1cc"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mediumvioletred"]        = "#c71585"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["midnight blue"]          = "#191970"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["midnightblue"]           = "#191970"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mint cream"]             = "#f5fffa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mintcream"]              = "#f5fffa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["misty rose"]             = "#ffe4e1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mistyrose"]              = "#ffe4e1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mistyrose1"]             = "#ffe4e1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mistyrose2"]             = "#eed5d2"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mistyrose3"]             = "#cdb7b5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["mistyrose4"]             = "#8b7d7b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["moccasin"]               = "#ffe4b5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["navajo white"]           = "#ffdead"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["navajowhite"]            = "#ffdead"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["navajowhite1"]           = "#ffdead"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["navajowhite2"]           = "#eecfa1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["navajowhite3"]           = "#cdb38b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["navajowhite4"]           = "#8b795e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["navy blue"]              = "#000080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["navy"]                   = "#000080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["navyblue"]               = "#000080"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["old lace"]               = "#fdf5e6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["oldlace"]                = "#fdf5e6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["olive drab"]             = "#6b8e23"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["olivedrab"]              = "#6b8e23"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["olivedrab1"]             = "#c0ff3e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["olivedrab2"]             = "#b3ee3a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["olivedrab3"]             = "#9acd32"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["olivedrab4"]             = "#698b22"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orange red"]             = "#ff4500"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orange"]                 = "#ffa500"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orange1"]                = "#ffa500"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orange2"]                = "#ee9a00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orange3"]                = "#cd8500"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orange4"]                = "#8b5a00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orangered"]              = "#ff4500"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orangered1"]             = "#ff4500"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orangered2"]             = "#ee4000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orangered3"]             = "#cd3700"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orangered4"]             = "#8b2500"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orchid"]                 = "#da70d6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orchid1"]                = "#ff83fa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orchid2"]                = "#ee7ae9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orchid3"]                = "#cd69c9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["orchid4"]                = "#8b4789"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["pale goldenrod"]         = "#eee8aa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["pale green"]             = "#98fb98"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["pale turquoise"]         = "#afeeee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["pale violet red"]        = "#db7093"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palegoldenrod"]          = "#eee8aa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palegreen"]              = "#98fb98"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palegreen1"]             = "#9aff9a"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palegreen2"]             = "#90ee90"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palegreen3"]             = "#7ccd7c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palegreen4"]             = "#548b54"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["paleturquoise"]          = "#afeeee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["paleturquoise1"]         = "#bbffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["paleturquoise2"]         = "#aeeeee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["paleturquoise3"]         = "#96cdcd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["paleturquoise4"]         = "#668b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palevioletred"]          = "#db7093"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palevioletred1"]         = "#ff82ab"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palevioletred2"]         = "#ee799f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palevioletred3"]         = "#cd6889"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["palevioletred4"]         = "#8b475d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["papaya whip"]            = "#ffefd5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["papayawhip"]             = "#ffefd5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["peach puff"]             = "#ffdab9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["peachpuff"]              = "#ffdab9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["peachpuff1"]             = "#ffdab9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["peachpuff2"]             = "#eecbad"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["peachpuff3"]             = "#cdaf95"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["peachpuff4"]             = "#8b7765"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["peru"]                   = "#cd853f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["pink"]                   = "#ffc0cb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["pink1"]                  = "#ffb5c5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["pink2"]                  = "#eea9b8"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["pink3"]                  = "#cd919e"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["pink4"]                  = "#8b636c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["plum"]                   = "#dda0dd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["plum1"]                  = "#ffbbff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["plum2"]                  = "#eeaeee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["plum3"]                  = "#cd96cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["plum4"]                  = "#8b668b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["powder blue"]            = "#b0e0e6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["powderblue"]             = "#b0e0e6"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["purple"]                 = "#a020f0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["purple1"]                = "#9b30ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["purple2"]                = "#912cee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["purple3"]                = "#7d26cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["purple4"]                = "#551a8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["red"]                    = "#ff0000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["red1"]                   = "#ff0000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["red2"]                   = "#ee0000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["red3"]                   = "#cd0000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["red4"]                   = "#8b0000"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["rosy brown"]             = "#bc8f8f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["rosybrown"]              = "#bc8f8f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["rosybrown1"]             = "#ffc1c1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["rosybrown2"]             = "#eeb4b4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["rosybrown3"]             = "#cd9b9b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["rosybrown4"]             = "#8b6969"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["royal blue"]             = "#4169e1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["royalblue"]              = "#4169e1"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["royalblue1"]             = "#4876ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["royalblue2"]             = "#436eee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["royalblue3"]             = "#3a5fcd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["royalblue4"]             = "#27408b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["saddle brown"]           = "#8b4513"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["saddlebrown"]            = "#8b4513"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["salmon"]                 = "#fa8072"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["salmon1"]                = "#ff8c69"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["salmon2"]                = "#ee8262"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["salmon3"]                = "#cd7054"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["salmon4"]                = "#8b4c39"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["sandy brown"]            = "#f4a460"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["sandybrown"]             = "#f4a460"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["sea green"]              = "#2e8b57"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seagreen"]               = "#2e8b57"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seagreen1"]              = "#54ff9f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seagreen2"]              = "#4eee94"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seagreen3"]              = "#43cd80"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seagreen4"]              = "#2e8b57"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seashell"]               = "#fff5ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seashell1"]              = "#fff5ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seashell2"]              = "#eee5de"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seashell3"]              = "#cdc5bf"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["seashell4"]              = "#8b8682"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["sienna"]                 = "#a0522d"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["sienna1"]                = "#ff8247"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["sienna2"]                = "#ee7942"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["sienna3"]                = "#cd6839"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["sienna4"]                = "#8b4726"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["sky blue"]               = "#87ceeb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["skyblue"]                = "#87ceeb"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["skyblue1"]               = "#87ceff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["skyblue2"]               = "#7ec0ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["skyblue3"]               = "#6ca6cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["skyblue4"]               = "#4a708b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slate blue"]             = "#6a5acd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slate gray"]             = "#708090"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slate grey"]             = "#708090"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slateblue"]              = "#6a5acd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slateblue1"]             = "#836fff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slateblue2"]             = "#7a67ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slateblue3"]             = "#6959cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slateblue4"]             = "#473c8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slategray"]              = "#708090"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slategray1"]             = "#c6e2ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slategray2"]             = "#b9d3ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slategray3"]             = "#9fb6cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slategray4"]             = "#6c7b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["slategrey"]              = "#708090"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["snow"]                   = "#fffafa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["snow1"]                  = "#fffafa"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["snow2"]                  = "#eee9e9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["snow3"]                  = "#cdc9c9"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["snow4"]                  = "#8b8989"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["spring green"]           = "#00ff7f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["springgreen"]            = "#00ff7f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["springgreen1"]           = "#00ff7f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["springgreen2"]           = "#00ee76"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["springgreen3"]           = "#00cd66"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["springgreen4"]           = "#008b45"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["steel blue"]             = "#4682b4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["steelblue"]              = "#4682b4"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["steelblue1"]             = "#63b8ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["steelblue2"]             = "#5cacee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["steelblue3"]             = "#4f94cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["steelblue4"]             = "#36648b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tan"]                    = "#d2b48c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tan1"]                   = "#ffa54f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tan2"]                   = "#ee9a49"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tan3"]                   = "#cd853f"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tan4"]                   = "#8b5a2b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["thistle"]                = "#d8bfd8"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["thistle1"]               = "#ffe1ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["thistle2"]               = "#eed2ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["thistle3"]               = "#cdb5cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["thistle4"]               = "#8b7b8b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tomato"]                 = "#ff6347"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tomato1"]                = "#ff6347"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tomato2"]                = "#ee5c42"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tomato3"]                = "#cd4f39"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["tomato4"]                = "#8b3626"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["turquoise"]              = "#40e0d0"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["turquoise1"]             = "#00f5ff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["turquoise2"]             = "#00e5ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["turquoise3"]             = "#00c5cd"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["turquoise4"]             = "#00868b"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["violet red"]             = "#d02090"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["violet"]                 = "#ee82ee"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["violetred"]              = "#d02090"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["violetred1"]             = "#ff3e96"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["violetred2"]             = "#ee3a8c"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["violetred3"]             = "#cd3278"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["violetred4"]             = "#8b2252"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["wheat"]                  = "#f5deb3"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["wheat1"]                 = "#ffe7ba"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["wheat2"]                 = "#eed8ae"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["wheat3"]                 = "#cdba96"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["wheat4"]                 = "#8b7e66"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["white smoke"]            = "#f5f5f5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["white"]                  = "#ffffff"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["whitesmoke"]             = "#f5f5f5"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["yellow green"]           = "#9acd32"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["yellow"]                 = "#ffff00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["yellow1"]                = "#ffff00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["yellow2"]                = "#eeee00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["yellow3"]                = "#cdcd00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["yellow4"]                = "#8b8b00"$/;"	v
+s:rgb	.vim/autoload/csapprox.vim	/^let s:rgb["yellowgreen"]            = "#9acd32"$/;"	v
+s:rgb	.vim/plugin/CSApprox.vim	/^let s:rgb = {}$/;"	v
+s:rgb_defaults	.vim/plugin/CSApprox.vim	/^let s:rgb_defaults = { "lightred"     : "#FFBBBB",$/;"	v
+s:rgb_presets	.vim/plugin/CSApprox.vim	/^let s:rgb_presets = { "black"         : "#000000",$/;"	v
+s:save_cpo	.vim/after/plugin/TabularMaps.vim	/^let s:save_cpo = &cpo$/;"	v
+s:savecpo	.vim/autoload/tabular.vim	/^let s:savecpo = &cpo$/;"	v
+s:savecpo	.vim/plugin/CSApprox.vim	/^let s:savecpo = &cpo$/;"	v
+s:savecpo	.vim/plugin/Tabular.vim	/^let s:savecpo = &cpo$/;"	v
+s:snippets	.vim/plugin/snipMate.vim	/^let s:snippets = {} | let s:multi_snips = {}$/;"	v
+s:tlist_app_name	.vim/plugin/taglist.vim	/^let s:tlist_app_name = "none"$/;"	v
+s:tlist_brief_help	.vim/plugin/taglist.vim	/^let s:tlist_brief_help = 1$/;"	v
+s:tlist_cur_file_idx	.vim/plugin/taglist.vim	/^let s:tlist_cur_file_idx = -1$/;"	v
+s:tlist_debug	.vim/plugin/taglist.vim	/^let s:tlist_debug = 0$/;"	v
+s:tlist_debug_file	.vim/plugin/taglist.vim	/^let s:tlist_debug_file = ''$/;"	v
+s:tlist_def_asm_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_asm_settings = 'asm;d:define;l:label;m:macro;t:type'$/;"	v
+s:tlist_def_aspperl_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_aspperl_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_aspvbs_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_aspvbs_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_awk_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_awk_settings = 'awk;f:function'$/;"	v
+s:tlist_def_beta_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_beta_settings = 'beta;f:fragment;s:slot;v:pattern'$/;"	v
+s:tlist_def_c_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_c_settings = 'c;d:macro;g:enum;s:struct;u:union;t:typedef;' .$/;"	v
+s:tlist_def_cobol_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_cobol_settings = 'cobol;d:data;f:file;g:group;p:paragraph;' .$/;"	v
+s:tlist_def_cpp_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_cpp_settings = 'c++;n:namespace;v:variable;d:macro;t:typedef;' .$/;"	v
+s:tlist_def_cs_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_cs_settings = 'c#;d:macro;t:typedef;n:namespace;c:class;' .$/;"	v
+s:tlist_def_csh_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_csh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_eiffel_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_eiffel_settings = 'eiffel;c:class;f:feature'$/;"	v
+s:tlist_def_erlang_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_erlang_settings = 'erlang;d:macro;r:record;m:module;f:function'$/;"	v
+s:tlist_def_expect_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_expect_settings = 'tcl;c:class;f:method;p:procedure'$/;"	v
+s:tlist_def_fortran_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_fortran_settings = 'fortran;p:program;b:block data;' .$/;"	v
+s:tlist_def_html_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_html_settings = 'html;a:anchor;f:javascript function'$/;"	v
+s:tlist_def_java_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_java_settings = 'java;p:package;c:class;i:interface;' .$/;"	v
+s:tlist_def_javascript_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_javascript_settings = 'javascript;f:function'$/;"	v
+s:tlist_def_lisp_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_lisp_settings = 'lisp;f:function'$/;"	v
+s:tlist_def_lua_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_lua_settings = 'lua;f:function'$/;"	v
+s:tlist_def_make_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_make_settings = 'make;m:macro'$/;"	v
+s:tlist_def_pascal_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_pascal_settings = 'pascal;f:function;p:procedure'$/;"	v
+s:tlist_def_perl_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_perl_settings = 'perl;c:constant;l:label;p:package;s:subroutine'$/;"	v
+s:tlist_def_php_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_php_settings = 'php;c:class;d:constant;v:variable;f:function'$/;"	v
+s:tlist_def_python_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_python_settings = 'python;c:class;m:member;f:function'$/;"	v
+s:tlist_def_rexx_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_rexx_settings = 'rexx;s:subroutine'$/;"	v
+s:tlist_def_ruby_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_ruby_settings = 'ruby;c:class;f:method;F:function;' .$/;"	v
+s:tlist_def_scheme_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_scheme_settings = 'scheme;s:set;f:function'$/;"	v
+s:tlist_def_sh_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_sh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_slang_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_slang_settings = 'slang;n:namespace;f:function'$/;"	v
+s:tlist_def_sml_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_sml_settings = 'sml;e:exception;c:functor;s:signature;' .$/;"	v
+s:tlist_def_sql_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_sql_settings = 'sql;c:cursor;F:field;P:package;r:record;' .$/;"	v
+s:tlist_def_tcl_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_tcl_settings = 'tcl;c:class;f:method;m:method;p:procedure'$/;"	v
+s:tlist_def_vera_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_vera_settings = 'vera;c:class;d:macro;e:enumerator;' .$/;"	v
+s:tlist_def_verilog_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_verilog_settings = 'verilog;m:module;c:constant;P:parameter;' .$/;"	v
+s:tlist_def_vim_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_vim_settings = 'vim;a:autocmds;v:variable;f:function'$/;"	v
+s:tlist_def_yacc_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_yacc_settings = 'yacc;l:label'$/;"	v
+s:tlist_def_zsh_settings	.vim/plugin/taglist.vim	/^let s:tlist_def_zsh_settings = 'sh;f:function'$/;"	v
+s:tlist_file_count	.vim/plugin/taglist.vim	/^let s:tlist_file_count = 0$/;"	v
+s:tlist_file_lnum_idx_cache	.vim/plugin/taglist.vim	/^let s:tlist_file_lnum_idx_cache = -1$/;"	v
+s:tlist_file_name_idx_cache	.vim/plugin/taglist.vim	/^let s:tlist_file_name_idx_cache = -1$/;"	v
+s:tlist_file_names	.vim/plugin/taglist.vim	/^let s:tlist_file_names=''$/;"	v
+s:tlist_ftype_count	.vim/plugin/taglist.vim	/^let s:tlist_ftype_count = 0$/;"	v
+s:tlist_menu_empty	.vim/plugin/taglist.vim	/^let s:tlist_menu_empty = 1$/;"	v
+s:tlist_msg	.vim/plugin/taglist.vim	/^    let s:tlist_msg = ''$/;"	v
+s:tlist_removed_flist	.vim/plugin/taglist.vim	/^let s:tlist_removed_flist = ""$/;"	v
+s:tlist_sid	.vim/plugin/taglist.vim	/^    let s:tlist_sid = substitute(maparg('<SID>xx'), '<SNR>\\(\\d\\+_\\)xx$',$/;"	v
+s:tlist_win_maximized	.vim/plugin/taglist.vim	/^let s:tlist_win_maximized = 0$/;"	v
+s:tlist_winsize_chgd	.vim/plugin/taglist.vim	/^let s:tlist_winsize_chgd = -1$/;"	v
+s:urxvt_colors	.vim/plugin/CSApprox.vim	/^let s:urxvt_colors   = [ 0x00, 0x8B, 0xCD, 0xFF ]$/;"	v
+s:urxvt_greys	.vim/plugin/CSApprox.vim	/^let s:urxvt_greys    = [ 0x2E, 0x5C, 0x73, 0x8B,$/;"	v
+s:verbose	.vim/plugin/CSApprox.vim	/^    let s:verbose  = g:CSApprox_verbose_level$/;"	v
+s:verbose	.vim/plugin/CSApprox.vim	/^  let s:verbose = 1$/;"	v
+s:xterm_colors	.vim/plugin/CSApprox.vim	/^let s:xterm_colors   = [ 0x00, 0x5F, 0x87, 0xAF, 0xD7, 0xFF ]$/;"	v
+s:xterm_greys	.vim/plugin/CSApprox.vim	/^let s:xterm_greys    = [ 0x08, 0x12, 0x1C, 0x26, 0x30, 0x3A,$/;"	v
+sanitize_path_string	.vim/ruby/command-t/controller.rb	/^    def sanitize_path_string str$/;"	f	class:CommandT.Controller
+save	.vim/ruby/command-t/settings.rb	/^    def save$/;"	f	class:CommandT.Settings
+sbindir	.vim/ruby/command-t/Makefile	/^sbindir = $(exec_prefix)\/sbin$/;"	m
+select	.vim/ruby/command-t/vim/window.rb	/^      def self.select window$/;"	F	class:CommandT.VIM.Window
+select_next	.vim/ruby/command-t/controller.rb	/^    def select_next$/;"	f	class:CommandT.Controller
+select_next	.vim/ruby/command-t/match_window.rb	/^    def select_next$/;"	f	class:CommandT.MatchWindow
+select_prev	.vim/ruby/command-t/controller.rb	/^    def select_prev$/;"	f	class:CommandT.Controller
+select_prev	.vim/ruby/command-t/match_window.rb	/^    def select_prev$/;"	f	class:CommandT.MatchWindow
+selection	.vim/ruby/command-t/match_window.rb	/^    def selection$/;"	f	class:CommandT.MatchWindow
+semicolon	.vim/scripts/jslint/fulljslint.js	/^    function semicolon() {$/;"	f
+set_bool	.vim/ruby/command-t/settings.rb	/^    def set_bool setting, value$/;"	f	class:CommandT.Settings
+set_number	.vim/ruby/command-t/settings.rb	/^    def set_number setting, value$/;"	f	class:CommandT.Settings
+set_status	.vim/ruby/command-t/prompt.rb	/^    def set_status *args$/;"	f	class:CommandT.Prompt
+set_up_finder	.vim/ruby/command-t/controller.rb	/^    def set_up_finder$/;"	f	class:CommandT.Controller
+set_up_max_height	.vim/ruby/command-t/controller.rb	/^    def set_up_max_height$/;"	f	class:CommandT.Controller
+sharedstatedir	.vim/ruby/command-t/Makefile	/^sharedstatedir = $(prefix)\/com$/;"	m
+show	.vim/ruby/command-t/controller.rb	/^    def show$/;"	f	class:CommandT.Controller
+show	.vim/ruby/command-t/stub.rb	/^    def show$/;"	f	class:CommandT.Stub
+show_cursor	.vim/ruby/command-t/match_window.rb	/^    def show_cursor$/;"	f	class:CommandT.MatchWindow
+sitearch	.vim/ruby/command-t/Makefile	/^sitearch = x86_64-linux$/;"	m
+sitearchdir	.vim/ruby/command-t/Makefile	/^sitearchdir = $(sitelibdir)\/$(sitearch)$/;"	m
+sitedir	.vim/ruby/command-t/Makefile	/^sitedir = $(DESTDIR)\/usr\/local\/lib\/site_ruby$/;"	m
+sitelibdir	.vim/ruby/command-t/Makefile	/^sitelibdir = $(sitedir)\/$(ruby_version)$/;"	m
+snipMate#expandSnip	.vim/autoload/snipMate.vim	/^fun snipMate#expandSnip(snip, col)$/;"	f
+snipMate#jumpTabStop	.vim/autoload/snipMate.vim	/^fun snipMate#jumpTabStop(backwards)$/;"	f
+snippets_dir	.vim/plugin/snipMate.vim	/^	let snippets_dir = substitute(globpath(&rtp, 'snippets\/'), "\\n", ',', 'g')$/;"	v
+sorted_matches_for	.vim/ruby/command-t/finder.rb	/^    def sorted_matches_for str, options = {}$/;"	f	class:CommandT.Finder
+spaces	.vim/scripts/jslint/fulljslint.js	/^    function spaces(left, right) {$/;"	f
+srcdir	.vim/ruby/command-t/Makefile	/^srcdir = .$/;"	m
+statement	.vim/scripts/jslint/fulljslint.js	/^    function statement(no_indent) {$/;"	f
+statements	.vim/scripts/jslint/fulljslint.js	/^    function statements() {$/;"	f
+step_in	.vim/scripts/jslint/fulljslint.js	/^    function step_in(mode) {$/;"	f
+step_out	.vim/scripts/jslint/fulljslint.js	/^    function step_out(id, symbol) {$/;"	f
+stmt	.vim/scripts/jslint/fulljslint.js	/^    function stmt(s, f) {$/;"	f
+str_len	.vim/ruby/command-t/match.c	/^    long    str_len;                \/\/ length of same$/;"	m	struct:__anon1	file:	access:public
+str_p	.vim/ruby/command-t/match.c	/^    char    *str_p;                 \/\/ pointer to string to be searched$/;"	m	struct:__anon1	file:	access:public
+style_attribute	.vim/scripts/jslint/fulljslint.js	/^    function style_attribute() {$/;"	f
+style_child	.vim/scripts/jslint/fulljslint.js	/^    function style_child() {$/;"	f
+style_list	.vim/scripts/jslint/fulljslint.js	/^    function style_list() {$/;"	f
+style_pattern	.vim/scripts/jslint/fulljslint.js	/^    function style_pattern() {$/;"	f
+style_selector	.vim/scripts/jslint/fulljslint.js	/^    function style_selector() {$/;"	f
+style_value	.vim/scripts/jslint/fulljslint.js	/^    function style_value(v) {$/;"	f
+styles	.vim/scripts/jslint/fulljslint.js	/^    function styles() {$/;"	f
+substyle	.vim/scripts/jslint/fulljslint.js	/^    function substyle() {$/;"	f
+suffix	.vim/scripts/jslint/fulljslint.js	/^    function suffix(s, f) {$/;"	f
+symbol	.vim/scripts/jslint/fulljslint.js	/^    function symbol(s, p) {$/;"	f
+syntax.identifier	.vim/scripts/jslint/fulljslint.js	/^        identifier: true,$/;"	p
+syntax.lbp	.vim/scripts/jslint/fulljslint.js	/^        lbp: 0,$/;"	p
+syntax.nud	.vim/scripts/jslint/fulljslint.js	/^        nud: function () {$/;"	m
+syntax.type	.vim/scripts/jslint/fulljslint.js	/^        type: '(identifier)',$/;"	p
+sysconfdir	.vim/ruby/command-t/Makefile	/^sysconfdir = $(DESTDIR)\/etc$/;"	m
+tabular#ElementFormatPattern	.vim/autoload/tabular.vim	/^function! tabular#ElementFormatPattern()$/;"	f
+tabular#PipeRange	.vim/autoload/tabular.vim	/^function! tabular#PipeRange(includepat, ...) range$/;"	f
+tabular#TabularizeStrings	.vim/autoload/tabular.vim	/^function! tabular#TabularizeStrings(strings, delim, ...)$/;"	f
+tally_property	.vim/scripts/jslint/fulljslint.js	/^    function tally_property(name) {$/;"	f
+target_prefix	.vim/ruby/command-t/Makefile	/^target_prefix = $/;"	m
+toggle_focus	.vim/ruby/command-t/controller.rb	/^    def toggle_focus$/;"	f	class:CommandT.Controller
+topdir	.vim/ruby/command-t/Makefile	/^topdir = \/usr\/lib\/ruby\/1.8\/x86_64-linux$/;"	m
+truncated_match	.vim/ruby/command-t/match_window.rb	/^    def truncated_match str$/;"	f	class:CommandT.MatchWindow
+type	.vim/scripts/jslint/fulljslint.js	/^    function type(s, arity, nud) {$/;"	f
+ultimate	.vim/scripts/jslint/fulljslint.js	/^    function ultimate(s) {$/;"	f
+unfocus	.vim/ruby/command-t/match_window.rb	/^    def unfocus$/;"	f	class:CommandT.MatchWindow
+unfocus	.vim/ruby/command-t/prompt.rb	/^    def unfocus$/;"	f	class:CommandT.Prompt
+unload	.vim/ruby/command-t/controller.rb	/^    def unload$/;"	f	class:CommandT.Controller
+unload	.vim/ruby/command-t/match_window.rb	/^    def unload$/;"	f	class:CommandT.MatchWindow
+unlock	.vim/ruby/command-t/match_window.rb	/^    def unlock$/;"	f	class:CommandT.MatchWindow
+use_strict	.vim/scripts/jslint/fulljslint.js	/^    function use_strict() {$/;"	f
+vendorarchdir	.vim/ruby/command-t/Makefile	/^vendorarchdir = $(vendorlibdir)\/$(sitearch)$/;"	m
+vendordir	.vim/ruby/command-t/Makefile	/^vendordir = $(libdir)\/ruby\/vendor_ruby$/;"	m
+vendorlibdir	.vim/ruby/command-t/Makefile	/^vendorlibdir = $(vendordir)\/$(ruby_version)$/;"	m
+vt100?	.vim/ruby/command-t/controller.rb	/^    def vt100?$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+warn	.vim/ruby/command-t/stub.rb	/^    def warn *msg$/;"	f	class:CommandT.Stub
+x.led	.vim/scripts/jslint/fulljslint.js	/^        x.led = function (left) {$/;"	c
+xterm?	.vim/ruby/command-t/controller.rb	/^    def xterm?$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
