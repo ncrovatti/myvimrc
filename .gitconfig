@@ -1,5 +1,19 @@
+[alias]
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	ll = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+	st = status
+	ci = commit
+	d = difftool
+	co = checkout
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[color]
+	ui = true
+[branch]
+	autosetupmerge = true
+
 [user]
 	name = Nicolas Crovatti
 	email = nicolas.crovatti@gmail.com
-[alias]
-	st = status

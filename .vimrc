@@ -1,3 +1,4 @@
+execute pathogen#infect()
 set t_Co=256
 set bg=dark
 set tabstop=2
@@ -28,7 +29,8 @@ set incsearch     " show search matches as you type
 set visualbell           " don't beep
 set noerrorbells         " don't beep
 "set scrolloff=10
-set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
+set statusline=%F%m%r%h%w\ [%p%%]\ [%04l,%04v]\ (branch:\ %{GitBranchInfoTokens()[0]})
+let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
 set sidescrolloff=10
 set nowrap
 set iskeyword=@,48-57,_,$,192,255
@@ -61,19 +63,19 @@ set clipboard=unnamed
 augroup Programming
 " clear auto commands for this group
 autocmd!
-autocmd BufWritePost *.php  !php -d display_errors=on -l <afile>
-autocmd BufWritePost *.sh   !bash -n <afile>
-autocmd BufWritePost *.pl   !perl -c <afile>
-autocmd BufWritePost *.perl !perl -c <afile>
-autocmd BufWritePost *.xml  !xmllint --noout <afile>
-autocmd BufWritePost *.scss !sass --trace -c <afile>
-autocmd BufRead *.scss set filetype=scss
-autocmd BufRead *.jade set filetype=jade
-au BufRead,BufNewFile *.js setlocal iskeyword+=: 
-au BufRead,BufNewFile *.js setlocal iskeyword+=- 
-au BufRead,BufNewFile *.css setlocal iskeyword+=- 
-au BufRead,BufNewFile *.scss setlocal iskeyword+=- 
-" autocmd BufWritePost *.js  !~/.vim/scripts/jslint/jslint <afile>
+autocmd! BufWritePost *.php  !php -d display_errors=on -l <afile>
+autocmd! BufWritePost *.sh   !bash -n <afile>
+autocmd! BufWritePost *.pl   !perl -c <afile>
+autocmd! BufWritePost *.perl !perl -c <afile>
+autocmd! BufWritePost *.xml  !xmllint --noout <afile>
+autocmd! BufWritePost *.scss !sass --trace -c <afile>
+autocmd! BufRead *.scss set filetype=scss
+autocmd! BufRead *.jade set filetype=jade
+au! BufRead,BufNewFile *.js setlocal iskeyword+=: 
+au! BufRead,BufNewFile *.js setlocal iskeyword+=- 
+au! BufRead,BufNewFile *.css setlocal iskeyword+=- 
+au! BufRead,BufNewFile *.scss setlocal iskeyword+=- 
+"autocmd BufWritePost *.js  !node ~/.vim/scripts/jslint/fulljslint.js <afile>
 
 " http://stackoverflow.com/questions/473478/vim-jslint
 "set makeprg=cat\ %\ \\\|\ /usr/bin/js\ /home/nico/.vim/scripts/jslint/mylintrun.js\ %
@@ -83,8 +85,15 @@ map <F1> <ESC>
 
 map <S-up> <C-w>h
 map <S-down> <C-w>j
-map <S-left> <C-w>h
+map <S-left> <C-w>k
 map <S-right> <C-w>l
+
+map p P
+vnoremap x "_x
+vnoremap X "_X
+vnoremap t a
+map <D-r> <C-r>
+inoremap <S-space> <space>
 
 let mapleader=','
 if exists(":Tabularize")
@@ -111,6 +120,7 @@ function! InsertTabWrapper()
         return "\<c-p>"
     endif
 endfunction
+
 " Remap the tab key to select action with InsertTabWrapper
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 
@@ -120,20 +130,18 @@ inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 if has("gui_running")
   set guioptions-=m " turn off menu bar
   set guioptions-=T " turn off toolbar
-  set guifont=Inconsolata\ Medium\ 10 " My favorite font
+  set guifont=Inconsolata:h14 " My favorite font
   set guioptions=ce 
   "              ||
   "              |+-- use simple dialogs rather than pop-ups
   "              +  use GUI tabs, not console style tabs
-  set lines=60 " perfect size for me
   set mousehide " hide the mouse cursor when typing
+	set fuoptions=maxhorz,maxvert
 endif
 " }
-"cd /home/nico/workspace/pulse3
 set mouse=a
 
 let g:proj_window_width = 40
-"let g:proj_window_increment = 50
 
 let Tlist_Ctags_Cmd = "/usr/bin/ctags"
 let Tlist_Exist_OnlyWindow   = 1 " if you are the last, kill yourself
@@ -145,29 +153,33 @@ let Tlist_Compact_Format     = 1
 
 
 
-map <S-R> :CommandT<CR>
-"nmap <silent> <F3> <Plug>ToggleProject
-nnoremap <silent> <F4> :TlistToggle<CR>
-map <F11> :e ~/commits <Bar> :r!svn st <CR>
-map <F12> :e ~/buffer<CR>
+map <S-R> :CtrlPCurWD<CR>
 
 let g:miniBufExplTabWrap        = 1 " make tabs show complete (no broken on two lines)
 let g:miniBufExplUseSingleClick = 1
 let g:miniBufExplSplitBelow     = 0
 let g:miniBufExplVSplit         = 30
 let g:miniBufExplMaxWidth       = 0
+" let g:miniBufExplForceSyntaxEnable = 1
 
+let g:syntastic_warning_symbol = '✗'
+let g:syntastic_error_symbol = '✗'
 
-map <F5> :execute "vimgrep /" . getline('.') . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
-map <F6> :execute "vimgrep /" . expand('<cword>'). "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
+" CTRLP options
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_match_window_reversed = 0
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.log*
+
+map <C-F> :execute "vimgrep /" . getline('.') . "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
+map <S-F> :execute "vimgrep /" . expand('<cword>'). "/gj **/*.php **/*.js **/*.css **/*.tpl" <Bar> cw<CR>
 map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
-nnoremap <silent> <F9> :ConqueTerm bash<CR>
-nnoremap <silent> <C-D> :execute "!diff.sh " . getline('.')<CR>
+nnoremap <silent> <C-D> :execute "!diff.sh " . getline('.') <CR>
 
 let g:CommandTMaxFiles=30000
 
-autocmd InsertEnter * highlight StatusLine cterm=bold ctermfg=222
-autocmd InsertEnter * highlight CursorColumn ctermbg=23
-autocmd InsertLeave * highlight StatusLine cterm=none ctermfg=231
-autocmd InsertLeave * highlight CursorColumn ctermbg=237
+autocmd! InsertEnter * highlight StatusLine cterm=bold ctermfg=222
+autocmd! InsertEnter * highlight CursorColumn ctermbg=23
+autocmd! InsertLeave * highlight StatusLine cterm=none ctermfg=231
+autocmd! InsertLeave * highlight CursorColumn ctermbg=237
+
 
